@@ -58,7 +58,7 @@
  				return;
  			}
  			
- 			$this->opo_config = Configuration::load(__CA_APP_DIR__.'/plugins/tourML/conf/providenceTourML.conf');
+ 			$this->opo_config = Configuration::load(__CA_APP_DIR__.'/plugins/providenceTourML/conf/providenceTourML.conf');
  			
  			$tour_search = new TourSearch();
  			$qr_hits = $tour_search->search('*');
