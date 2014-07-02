@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?><tourml:Tour  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:tourml="http://tapintomuseums.org/TourML"
+	xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	xmlns:gml="http://www.opengis.net/gml"
+	xsi:schemaLocation="http://tapintomuseums.org/TourML TourML.xsd"
+	tourml:id="tour-1"
+	tourml:lastModified="2013-05-03T21:53:58+02:00">
+<tourml:TourMetadata>
+<tourml:Title xml:lang="fr"><![CDATA[Folleville - le village]]></tourml:Title>
+<tourml:AppResource tourml:id="asset-geo-1-0" tourml:usage="geo" />
+<tourml:AppResource tourml:id="asset-image-62" tourml:usage="image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="initial_map_zoom" >14</tourml:Property>
+</tourml:PropertySet>
+</tourml:TourMetadata>
+<tourml:Stop tourml:id="stop-2" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Porte du château]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-1" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-3" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Extérieur de l’église]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-2" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-4" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[La salle d'accueil]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-3" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-5" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[L'orphelinat]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-4" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-6" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[La petite mairie]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-5" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-7" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Statue de la vierge]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-6" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-8" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[La grand rue dans les années 1920]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-7" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-9" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Folleville vu du ciel]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-8" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-10" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Le château de La Faloise]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-9" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-11" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Joncs des marais]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-10" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-12" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Les traces du camp romain du blanc-mont vues d'avion]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-11" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-29" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[1. Porte du château - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-72" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-30" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[2. Extérieur de l’église - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-73" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-31" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[3. La salle d'accueil - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-74" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-32" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[4. Orphelinat - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-75" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-33" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[5. Mairie de Folleville - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-76" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-34" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[6. La place, le puits et la statue de la vierge - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-77" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-35" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[7. Imaginez un alignement de granges - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-78" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-36" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[8. Un village regroupé - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-79" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-37" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[9. Au delà du village-rue - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-80" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-38" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[10. Rue des marais - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-81" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-39" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[11. A l'époque romaine - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-82" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-27" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[12. Et ensuite...]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Continuez votre visite avec celle de l'église et celle des ruines du château.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-27-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-61" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >12</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-25" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[11. A l'époque romaine]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Histoire illustre, notre histoire se caractérise aussi par des racines fort anciennes. L’histoire commence chez nous avec le camp romain du Blamont, créé par Jules César vers 54 avant J.C. (de 51 à 57, disait Roger Agache, inventeur de l’archéologie aérienne en Picardie). Les voies romaines n’existent pas encore. Un peu partout c’est un monde d’habitat et d’enclos dispersés. Jules César installe ici trois camps, et trois légions (Breteuil, Vendeuil-Caply) ; c’est la zone frontière des Bellovaques (populations belliqueuses du Beauvaisis), et de l’Amiénois, plus calme. </p>
+<p>Celui de Folleville, à 2 km. au sud du village, s’étend sur le Blamont, plateau calcaire, en forme de rectangle d’environ 15 hectares (325 m., 380, 425 et 430 m. de côté), dont un angle (sud-ouest) déborde au-delà de la voie de chemin de fer. En contrebas de ce plateau, au sud, un sentier bien protégé permettait le ravitaillement en eau potable au ruisseau de la Rouvroy. Sur le plateau nord-est, la sortie accédait à un vaste terrain protégé, pour les manœuvres et les exercices. Les portes, une à l’est et une à l’ouest, sont défendues elles aussi, et la bordure du camp est marquée par deux fossés parallèles (à 5,80 m. l’un de l’autre, fossés creusés en V, de 3,80 m. de large). Enfin, à proximité, un amphithéâtre fut aménagé, sorte de « théâtre-aux-armées ». L’ensemble paraît avoir été occupé pendant plusieurs années. Les légionnaires dormaient enveloppés de peaux de bêtes, et le soubassement des huttes était empierré pour parer à l’humidité. Comme le sol n’a pas connu de gros travaux depuis, les traces en sont repérables (en vue aérienne seulement), après la pluie par exemple.    </p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-header_image-50" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >11</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-24" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[10. Rue des marais]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Au nord du village, au-delà de l’ancien chemin du tour des haies, le plateau était la propriété du château, c’était la couture (la culture). La rue étroite, rue des Marais, qui partait sur la gauche devant le cimetière, descendait directement vers les marais du Rosoy, où le berger conduisait le troupeau du village chaque matin lorsque le temps s’y prêtait. Quant à la rue « Malassise », elle arrivait par un raidillon sévère à l’entrée du village. Son départ de la voie romaine Breteuil – Moreuil lui permettait de monter tout droit au château. A Folleville les bergers étaient favorisés par la proximité des marais du Rosoy, et les talus secs ou « larris ».</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-24-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-51" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >10</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-23" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[9. Au delà du village-rue]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Village-rue, Folleville s’est développé le long du chemin qui allait de Quiry-le-Sec à La Faloise, passant au pied du château. Les liaisons routières de l’Ancien Régime allaient d’un village à l’autre, ainsi pour Esclainvillers joint directement par l’ancienne route du Château d’eau ; de même à la sortie Est du village un chemin bifurquait sur la droite pour rejoindre une rue de Quiry et l’entrée de son église. Ces anciennes liaisons routières ont été supprimées par le dernier remembrement de nos communes à la fin du 20e siècle. Ce sont précisément là, à l’est et au nord-est que sont bâtis plusieurs pavillons. Notre commune est ainsi passée de 63 habitants en 1990 à 156 à présent (janvier 2012).<br />
+La photo représente le château de La Faloise.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-23-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-52" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >9</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-22" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[8. Un village regroupé]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Village groupé, comme souvent en Picardie, ceci pour trois raisons.<br />
+a. D’abord la profondeur de l’eau : la protection du château, voulue ou subie pour disposer d’eau potable pour les bêtes comme pour les gens.<br />
+b. Ensuite la proximité du château, pour se regrouper dans la basse-cour et se défendre contre les assaillants. En cas d’invasion le village disposait d’un refuge commun. A Folleville c’était la basse-cour du château, ailleurs le souterrain, qu’on appelait le Fort, par exemple pour les villages voisins de La Faloise, ou d’Esclainvillers (les Muches sont un terme récent, au 19e iècle encore on ne parlait que de souterrains). De plus, ces bâtisses en bois s’épaulaient entre elles, et abritaient les paysans des intempéries et des tempêtes.<br />
+c. Enfin la pratique de l’assolement, à partir du 14e s., astreignait les paysans à une discipline collective imposée par le château : chaque secteur des champs labourés et étroits autour du village devait être réservé, la 1e année pour le blé et les céréales d’hiver, la 2e pour celles de printemps (ex. l’avoine), la 3e pour laisser reposer la terre ; c’était la jachère : « vaine pâture » (terres vaines = sans récoltes) : les animaux y étaient conduits par le berger du village, les animaux s’y engraissaient et y laissaient leur fumure.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-22-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-53" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >8</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-21" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[7. Imaginez un alignement de granges ]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Alors que plus aucune exploitation agricole n’est en activité dans ce village depuis bientôt 20 ans, on devine encore que la rue était bordée de hautes granges, destinées à abriter les réserves de paille et de fourrage, avec le porche appelé charterie ou carterie. Ce village n’a pas été détruit par la 1e guerre mondiale : le front a été bloqué à 7 km. à l’est du village.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-21-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-54" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >7</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-20" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[6. La place, le puits et la statue de la vierge]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>A gauche de la mairie, surmontée par le petit bâtiment en brique qui abritait la pompe à incendie, une mare avait été aménagée, qui servait aussi d’abreuvoir, jusqu’en 1950 environ, pour le troupeau de vaches conduit par le berger. Juste à côté, un peu en retrait, le puits, qui a été restauré récemment, est creusé à environ 110 m. de profondeur, soit le niveau de la nappe phréatique. En face de ce puits, adossée au contrefort de l’église une statue de la Vierge à l’enfant (16e s.), présidait aux allées et venues des femmes du village - et à leur dévotion – lorsqu’au début du 20e siècle encore, elles venaient chercher l’eau.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-20-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-55" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >6</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-19" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[5. Mairie de Folleville]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Juste en face de nous le petit bâtiment pris sur la cour de l’ancien presbytère, avec son pignon donnant sur la rue, est aujourd’hui la mairie de Folleville. Il a servi aussi de salle de classe jusqu’à la construction de l’école communale, laquelle héberge aujourd’hui l’association chargée d’animer ces lieux. Avant la Révolution ce petit bâtiment avait une fonction économique importante : c’était le pressoir « banal ». On amenait là par un sentier, près du puits, les hottes de raisin des vendanges, sachant que le clos de la vigne du château, avec quelques arpents voisins, était en contrebas sur le coteau ensoleillé (près d’1 Ha ½). C’est à présent la mairie de notre petite commune : on n’y presse plus le porte-monnaie du contribuable.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-19-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-56" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >5</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-18" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[4. Orphelinat]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>La grande bâtisse en briques surmontée d’une statue de st Vincent de Paul occupe un vaste espace qui fut avant la Révolution le potager du château. Au 19e siècle un curé Lazariste (disciple de st Vincent de Paul), qui logeait dans le presbytère (la maison basse à côté), a construit un orphelinat en cet endroit pour y accueillir (jusqu’en 1905) des enfants de la région parisienne, à la manière du fondateur de sa congrégation. Après-guerre, le bâtiment a ensuite hébergé un pensionnat privé aux conditions d&#039;éducation dures et strictes. Cette propriété appartient aujourd’hui à une congrégation religieuse d’origine Canadienne séparée de l’église catholique. Plusieurs religieuses vivent en permanence dans cette propriété qui est leur couvent.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-18-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-57" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >4</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-17" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[3. La salle d'accueil]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>A gauche de l’entrée une grande salle a pu être construite pour l’accueil des visiteurs, en 1999-2000, à la place d’un ancien bâtiment disparu. Elle s’appuie sur le pignon resté en place, dont témoignaient d’anciennes photos, sur le cadastre. On sait par les documents anciens que ce bâtiment abritait ici « l’hospital », lieu d’hospitalité où l’on accueillait les pélerins et autres gens de passage (munis d’un certificat de leur curé). Ce bâtiment abritait un peu plus loin les chariots et les fourgons. La grande cheminée qui a été reconstituée dans l’ancien hôpital permettait aux voyageurs et pauvres gueux de passage de sécher leurs habits et leurs pieds.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-17-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-58" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >3</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-16" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[2. Extérieur de l’église]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>La niche au-dessus du porche de l’église abritait initialement une statue de Saint Jacques qui a été transférée (vers 1840) en haut du contrefort pour être visible (un haut mur la cachait, fermant l’entrée, aboutissant au contrefort près de la porte de l’église)). Saint-Jacques de Compostelle, patron de Folleville, c’est une vieille histoire qui remonte à Jean III de Folleville, dont nous avons parlé. Au retour il avait construit cette église par dévotion à ce personnage, qui est ici représenté en marche ; malgré l’usure du temps on devine encore la coquille sculptée sur son chapeau.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-16-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-59" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >2</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-14" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[1. Porte du château]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Dans des temps anciens où les armes à feu portables étaient rares (15e siècle), l’entrée d’un château fortifié comprenait une porte piétonne et une porte cochère (par ex. Picquigny), de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 (pas très  réussie, en béton …)<br />
+On l’a  surmontée alors de créneaux fantaisistes, alors qu’elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-14-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-49" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >1</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-41" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[0. Bienvenue - audio]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-86" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-40" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[0. Bienvenue]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Bonjour et bienvenue dans cette courte visite guidée du village de Folleville.<br />
+En un peu moins d'une heure, vous allez pouvoir en apprendre un peu plus sur ce petit village de la Somme et son histoire.<br />
+Avant, après cette visite, ou à tout moment, n'oubliez pas de visiter l'église et les ruines du château.<br />
+Bonne découverte !</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-header_image-89" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >0</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Asset tourml:id="asset-geo-1-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.36358,49.6765]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6765,2.36358</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.36358,2.36358,49.6765,49.6765</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-image-62" tourml:type="image">
+            <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T21:44:08+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/vueduciel_0.png">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >685</tourml:Property>
+<tourml:Property tourml:name="height" >423</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-14-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.36321,49.6766]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6766,2.36321</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.36321,2.36321,49.6766,49.6766</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-72" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T12:50:50+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-1-porcheduchateau.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:01:01</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-16-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.36335,49.6765]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6765,2.36335</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.36335,2.36335,49.6765,49.6765</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-73" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T12:51:50+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-2-porcheeglise.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:46</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-17-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.36313,49.6768]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6768,2.36313</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.36313,2.36313,49.6768,49.6768</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-74" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T12:52:28+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-3-salle.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:46</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-18-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.3628,49.6764]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6764,2.3628</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.3628,2.3628,49.6764,49.6764</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-75" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T12:54:07+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-4-orphelinat.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:53</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-19-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.36329,49.6765]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6765,2.36329</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.36329,2.36329,49.6765,49.6765</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-76" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T12:54:44+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-5-mairie.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:50</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-20-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.36359,49.6765]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6765,2.36359</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.36359,2.36359,49.6765,49.6765</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-77" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T12:55:25+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-6-place.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:58</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-21-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.36611,49.6761]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6761,2.36611</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.36611,2.36611,49.6761,49.6761</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-78" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T12:56:03+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-7-granges.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:38</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-22-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.3675,49.6759]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6759,2.3675</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.3675,2.3675,49.6759,49.6759</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-79" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T12:56:45+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-8-villagegroupe.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:01:19</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-23-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.3683,49.6757]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6757,2.3683</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.3683,2.3683,49.6757,49.6757</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-80" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T12:57:27+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-9-villagerue.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:52</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-24-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.36102,49.6759]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6759,2.36102</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.36102,2.36102,49.6759,49.6759</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-81" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T12:58:15+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-10-ruedesmarais.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:49</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-82" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T12:58:52+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-11-debuthistoire.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:01:42</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-27-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[2.36323,49.6766]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >49.6766,2.36323</tourml:Property>
+<tourml:Property tourml:name="bbox" >2.36323,2.36323,49.6766,49.6766</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-61" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T21:40:07+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-et-ensuite.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >220</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-50" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T20:54:10+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-blanc-mont_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >220</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-51" tourml:type="header_image">
+            <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T20:54:28+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-joncs_0.png">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >319</tourml:Property>
+<tourml:Property tourml:name="height" >219</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-52" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T20:54:39+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-faloise-chateau_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >220</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-53" tourml:type="header_image">
+            <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T20:55:03+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-vueduciel_0.png">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >220</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-54" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T20:55:15+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-grand-rue-cpa_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >220</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-55" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T20:55:28+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-eglise-vierge-exterieur_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >220</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-56" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T20:55:50+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-mairie_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >220</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-57" tourml:type="header_image">
+            <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T20:56:02+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-colonies-1912-quiry-folleville_0.png">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >319</tourml:Property>
+<tourml:Property tourml:name="height" >219</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-58" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T20:56:16+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-chateau-salle_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >220</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-59" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T20:56:26+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-eglise-exterieur_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >220</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-49" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T19:41:41+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-chateau-porche_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >220</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-86" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-03T14:20:11+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/village-0-bienvenue.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:19</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >mp3</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-89" tourml:type="header_image">
+            <tourml:Source tourml:format="image/png" tourml:lastModified="2013-05-03T14:28:12+02:00" xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/header-bienvenue_0.png">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >220</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-1" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[Derrière le porche on aperçoit le haut de la tour de guet : ronde sur la partie cachée derrière la porte, elle est ensuite hexagonale (6 côtés) puis dodécagonale (12 côtés).]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:34:29+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/chateau-porche.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >669</tourml:Property>
+<tourml:Property tourml:name="height" >1024</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:34:29+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/thumbnail/public/chateau-porche.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >65</tourml:Property>
+<tourml:Property tourml:name="height" >100</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:34:29+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/original/public/chateau-porche.jpg" tourml:part="original">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >669</tourml:Property>
+<tourml:Property tourml:name="height" >1024</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Créneaux sur le porche de l&#039;entrée du château]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-2" tourml:type="image_asset">
+                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:42:26+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/eglise-statue-st-jacques.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >410</tourml:Property>
+<tourml:Property tourml:name="height" >402</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:42:26+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/thumbnail/public/eglise-statue-st-jacques.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >98</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:42:26+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/original/public/eglise-statue-st-jacques.jpg" tourml:part="original">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >410</tourml:Property>
+<tourml:Property tourml:name="height" >402</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Statue de Saint Jacques sur le contrefort]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-3" tourml:type="image_asset">
+                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:45:17+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/chateau-salle.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >265</tourml:Property>
+<tourml:Property tourml:name="height" >199</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:45:17+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/thumbnail/public/chateau-salle.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >75</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:45:17+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/original/public/chateau-salle.jpg" tourml:part="original">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >265</tourml:Property>
+<tourml:Property tourml:name="height" >199</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[La salle d’accueil]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-4" tourml:type="image_asset">
+                            <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T14:53:23+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/colonies-1912-quiry-folleville.png" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >607</tourml:Property>
+<tourml:Property tourml:name="height" >397</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T14:53:23+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/thumbnail/public/colonies-1912-quiry-folleville.png" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >65</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T14:53:23+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/original/public/colonies-1912-quiry-folleville.png" tourml:part="original">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >607</tourml:Property>
+<tourml:Property tourml:name="height" >397</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[L&#039;orphelinat]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-5" tourml:type="image_asset">
+                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:55:02+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/mairie.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >765</tourml:Property>
+<tourml:Property tourml:name="height" >507</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:55:02+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/thumbnail/public/mairie.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >66</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:55:02+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/original/public/mairie.jpg" tourml:part="original">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >765</tourml:Property>
+<tourml:Property tourml:name="height" >507</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Mairie de Folleville]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-6" tourml:type="image_asset">
+                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:58:03+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/eglise-vierge-exterieur.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >620</tourml:Property>
+<tourml:Property tourml:name="height" >1024</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:58:03+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/thumbnail/public/eglise-vierge-exterieur.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >61</tourml:Property>
+<tourml:Property tourml:name="height" >100</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T14:58:03+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/original/public/eglise-vierge-exterieur.jpg" tourml:part="original">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >620</tourml:Property>
+<tourml:Property tourml:name="height" >1024</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Statue de la vierge]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-7" tourml:type="image_asset">
+                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T15:01:13+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/grand-rue-cpa.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >760</tourml:Property>
+<tourml:Property tourml:name="height" >512</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T15:01:13+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/thumbnail/public/grand-rue-cpa.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T15:01:13+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/original/public/grand-rue-cpa.jpg" tourml:part="original">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >760</tourml:Property>
+<tourml:Property tourml:name="height" >512</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[La grand rue dans les années 1920]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-8" tourml:type="image_asset">
+                            <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T15:03:36+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/vueduciel.png" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >685</tourml:Property>
+<tourml:Property tourml:name="height" >423</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T15:03:36+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/thumbnail/public/vueduciel.png" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >62</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T15:03:36+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/original/public/vueduciel.png" tourml:part="original">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >685</tourml:Property>
+<tourml:Property tourml:name="height" >423</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Folleville vu du ciel]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-9" tourml:type="image_asset">
+                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T15:13:24+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/faloise-chateau.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >800</tourml:Property>
+<tourml:Property tourml:name="height" >579</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T15:13:24+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/thumbnail/public/faloise-chateau.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >72</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T15:13:24+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/original/public/faloise-chateau.jpg" tourml:part="original">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >800</tourml:Property>
+<tourml:Property tourml:name="height" >579</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Le château de La Faloise]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-10" tourml:type="image_asset">
+                            <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T15:18:58+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/joncs.png" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >469</tourml:Property>
+<tourml:Property tourml:name="height" >304</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T15:18:58+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/thumbnail/public/joncs.png" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >65</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/png" tourml:lastModified="2013-04-13T15:18:58+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/original/public/joncs.png" tourml:part="original">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >469</tourml:Property>
+<tourml:Property tourml:name="height" >304</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Joncs des marais]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-11" tourml:type="image_asset">
+                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T15:22:40+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/blanc-mont.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >466</tourml:Property>
+<tourml:Property tourml:name="height" >359</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T15:22:40+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/thumbnail/public/blanc-mont.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >77</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-04-13T15:22:40+02:00" 
+            xml:lang="fr" tourml:uri="/gestion/app/plugins/tourML/export/tour-folleville-village/assets/styles/original/public/blanc-mont.jpg" tourml:part="original">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >466</tourml:Property>
+<tourml:Property tourml:name="height" >359</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Les traces du camp romain du blanc-mont vues d&#039;avion]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Connection tourml:srcId="stop-25" tourml:destId="stop-39" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-25" tourml:destId="stop-12" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-25" tourml:destId="stop-27" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-24" tourml:destId="stop-38" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-24" tourml:destId="stop-11" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-24" tourml:destId="stop-25" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-23" tourml:destId="stop-37" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-23" tourml:destId="stop-10" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-23" tourml:destId="stop-24" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-22" tourml:destId="stop-36" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-22" tourml:destId="stop-9" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-22" tourml:destId="stop-23" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-21" tourml:destId="stop-35" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-21" tourml:destId="stop-8" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-21" tourml:destId="stop-22" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-20" tourml:destId="stop-34" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-20" tourml:destId="stop-7" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-20" tourml:destId="stop-21" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-19" tourml:destId="stop-33" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-19" tourml:destId="stop-6" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-19" tourml:destId="stop-20" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-18" tourml:destId="stop-32" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-18" tourml:destId="stop-5" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-18" tourml:destId="stop-19" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-17" tourml:destId="stop-31" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-17" tourml:destId="stop-4" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-17" tourml:destId="stop-18" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-16" tourml:destId="stop-30" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-16" tourml:destId="stop-3" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-16" tourml:destId="stop-17" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-14" tourml:destId="stop-29" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-14" tourml:destId="stop-2" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-14" tourml:destId="stop-16" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-40" tourml:destId="stop-41" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-40" tourml:destId="stop-14" tourml:priority="2" />
+</tourml:Tour>
