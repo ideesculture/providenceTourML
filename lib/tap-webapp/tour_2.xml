@@ -5,25 +5,25 @@
     <tourml:Description xml:lang="en">dhsjk fhdsjk fjdskql </tourml:Description>
     <tourml:Author>Providence TourML</tourml:Author>
     <tourml:AppResource tourml:id="tour_image_header" tourml:usage="image"/>
-    <tourml:RootStopRef tourml:id="stop-1"/>
+    <tourml:RootStopRef tourml:id="12_Moise"/>
   </tourml:TourMetadata>
   <tourml:PropertySet>
     <tourml:Property tourml:name="google-analytics">UA-123456</tourml:Property>
   </tourml:PropertySet>
-  <tourml:Stop tourml:id="12_Moise" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="12_Moise" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:AssetRef tourml:id="header_15" tourml:usage="header_image"/>
     <tourml:AssetRef tourml:id="6" tourml:usage="image"/>
   </tourml:Stop>
-  <tourml:Stop tourml:id="13_Test_GM" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="13_Test_GM" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:AssetRef tourml:id="header_14" tourml:usage="header_image"/>
   </tourml:Stop>
-  <tourml:Stop tourml:id="folleville-chateau-1" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="folleville-chateau-1" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
@@ -37,7 +37,7 @@ On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement 
       <tourml:Property tourml:name="code">1</tourml:Property>
     </tourml:PropertySet>
   </tourml:Stop>
-  <tourml:Stop tourml:id="folleville-chateau-2" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="folleville-chateau-2" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
@@ -53,7 +53,7 @@ On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement 
       <tourml:Property tourml:name="code">2</tourml:Property>
     </tourml:PropertySet>
   </tourml:Stop>
-  <tourml:Stop tourml:id="folleville-chateau-3" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="folleville-chateau-3" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
@@ -71,7 +71,7 @@ On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement 
       <tourml:Property tourml:name="code">3</tourml:Property>
     </tourml:PropertySet>
   </tourml:Stop>
-  <tourml:Stop tourml:id="folleville-chateau-4" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="folleville-chateau-4" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
@@ -91,7 +91,7 @@ On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement 
       <tourml:Property tourml:name="code">4</tourml:Property>
     </tourml:PropertySet>
   </tourml:Stop>
-  <tourml:Stop tourml:id="folleville-chateau-5" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="folleville-chateau-5" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
@@ -113,7 +113,7 @@ On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement 
       <tourml:Property tourml:name="code">5</tourml:Property>
     </tourml:PropertySet>
   </tourml:Stop>
-  <tourml:Stop tourml:id="folleville-chateau-6" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="folleville-chateau-6" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
@@ -137,7 +137,7 @@ On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement 
       <tourml:Property tourml:name="code">6</tourml:Property>
     </tourml:PropertySet>
   </tourml:Stop>
-  <tourml:Stop tourml:id="folleville-chateau-7" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="folleville-chateau-7" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
@@ -163,7 +163,7 @@ On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement 
       <tourml:Property tourml:name="code">7</tourml:Property>
     </tourml:PropertySet>
   </tourml:Stop>
-  <tourml:Stop tourml:id="folleville-chateau-8" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="folleville-chateau-8" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
@@ -191,7 +191,7 @@ On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement 
       <tourml:Property tourml:name="code">8</tourml:Property>
     </tourml:PropertySet>
   </tourml:Stop>
-  <tourml:Stop tourml:id="folleville-chateau-9" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="folleville-chateau-9" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
@@ -221,7 +221,7 @@ On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement 
       <tourml:Property tourml:name="code">9</tourml:Property>
     </tourml:PropertySet>
   </tourml:Stop>
-  <tourml:Stop tourml:id="folleville-chateau-10" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="folleville-chateau-10" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
@@ -253,7 +253,7 @@ On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement 
       <tourml:Property tourml:name="code">10</tourml:Property>
     </tourml:PropertySet>
   </tourml:Stop>
-  <tourml:Stop tourml:id="folleville-chateau-11" tourml:view="StopGroup">
+  <tourml:Stop tourml:id="folleville-chateau-11" tourml:view="stop_group">
     <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
     <tourml:Description xml:lang="fr"/>
     <tourml:Title xml:lang="en">13. Test GM</tourml:Title>

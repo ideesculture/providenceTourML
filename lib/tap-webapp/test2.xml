@@ -22,24 +22,7 @@ Plongez dans l’histoire de l’une des plus mystérieuses villes gallo-romaine
       <tourml:Property tourml:name="code">2</tourml:Property>
     </tourml:PropertySet>
   </tourml:Stop>
-  <tourml:Stop tourml:id="La_mosaique" tourml:view="stop_group">
-    <tourml:Title xml:lang="en">1. La mosaïque</tourml:Title>
-    <tourml:Description xml:lang="fr">La mosaïque de Grand, une des plus grandes encore en place in situ, blabla...</tourml:Description>
-    <tourml:AssetRef tourml:id="header_16" tourml:usage="header_image"/>
-    <tourml:AssetRef tourml:id="7" tourml:usage="image"/>
-    <tourml:PropertySet>
-      <tourml:Property tourml:name="code">1</tourml:Property>
-    </tourml:PropertySet>
-  </tourml:Stop>
-  <tourml:Stop tourml:id="Le_rempart" tourml:view="stop_group">
-    <tourml:Title xml:lang="en">3. Le rempart</tourml:Title>
-    <tourml:Description xml:lang="fr"/>
-    <tourml:AssetRef tourml:id="header_18" tourml:usage="header_image"/>
-    <tourml:AssetRef tourml:id="11" tourml:usage="image"/>
-    <tourml:PropertySet>
-      <tourml:Property tourml:name="code">3</tourml:Property>
-    </tourml:PropertySet>
-  </tourml:Stop>
+  
   <tourml:Asset tourml:id="tour_image_header">
     <tourml:Source id="tour_image_header" type="image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/1/50584_ca_attribute_values_value_blob_122_page.jpg" lastModified="2011-09-29T12:01:32">
       <tourml:PropertySet>
@@ -72,36 +55,5 @@ Plongez dans l’histoire de l’une des plus mystérieuses villes gallo-romaine
       </tourml:PropertySet>
     </tourml:Source>
   </tourml:Asset>
-  <tourml:Asset tourml:id="header_16">
-    <tourml:Source id="header_16" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/1/54241_ca_attribute_values_value_blob_124_page.jpg" lastModified="2011-09-29T12:01:32">
-      <tourml:PropertySet>
-        <tourml:Property tourml:name="width">320</tourml:Property>
-        <tourml:Property tourml:name="height">200</tourml:Property>
-      </tourml:PropertySet>
-    </tourml:Source>
-  </tourml:Asset>
-  <tourml:Asset tourml:id="7">
-    <tourml:Source id="7" type="image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/22397_ca_object_representations_media_8_page.jpg" lastModified="2011-09-29T12:01:32">
-      <tourml:PropertySet>
-        <tourml:Property tourml:name="width">1000</tourml:Property>
-        <tourml:Property tourml:name="height">699</tourml:Property>
-      </tourml:PropertySet>
-    </tourml:Source>
-  </tourml:Asset>
-  <tourml:Asset tourml:id="header_18">
-    <tourml:Source id="header_18" type="header_image" format="image/jpeg" uri="" lastModified="2011-09-29T12:01:32">
-      <tourml:PropertySet>
-        <tourml:Property tourml:name="width">320</tourml:Property>
-        <tourml:Property tourml:name="height">200</tourml:Property>
-      </tourml:PropertySet>
-    </tourml:Source>
-  </tourml:Asset>
-  <tourml:Asset tourml:id="11">
-    <tourml:Source id="11" type="image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/24520_ca_object_representations_media_12_page.jpg" lastModified="2011-09-29T12:01:32">
-      <tourml:PropertySet>
-        <tourml:Property tourml:name="width">1000</tourml:Property>
-        <tourml:Property tourml:name="height">1500</tourml:Property>
-      </tourml:PropertySet>
-    </tourml:Source>
-  </tourml:Asset>
+  
 </tourml:Tour>

@@ -96,7 +96,7 @@
  			$opa_id=2;
  			$opa_locale="fr";
 
-                        $vt_stopContent = array();
+                        
                         $asset_sources = array();
                         
  			$xml = new tourml();
@@ -111,8 +111,7 @@
  				array("name"=>"Title","value"=>$vt_tour->getLabelForDisplay(),"attributes"=>array("xml:lang"=>"en")),
  				array("name"=>"Description","value"=>  html_entity_decode($vt_tour->get("ca_tours.tour_description")),"attributes"=>array("xml:lang"=>"en")),
  				array("name"=>"Author","value"=>"Providence TourML"), 
-                                array("name"=> "AppResource", "attributes"=>array("tourml:id"=>"tour_image_header", "tourml:usage"=>"image")),
- 				array("name"=>"RootStopRef","attributes"=>array("tourml:id"=>"stop-1"))
+                                array("name"=> "AppResource", "attributes"=>array("tourml:id"=>"tour_image_header", "tourml:usage"=>"image"))
  			);
                         
                         $va_header_image = $vt_tour->get("ca_tours.tour_image_header", array("version"=>"page", "return"=>"url", "showMediaInfo"=>true));
@@ -131,14 +130,22 @@
                         
                         $va_stops = $vt_tour->get("ca_tour_stops.stop_id", array("returnAsArray"=>true));
                         
-                        $xml->setMetadatas($metadatas);
-
- 			$xml->addMetadataProperty(array("google-analytics"=>"UA-123456"));
                         
-                       
                         
                         foreach ($va_stops as $vn_stop_id){
                             $vt_stop = new ca_tour_stops($vn_stop_id);
+                            $vt_stopContent = array();
+                            
+                            if(!$nonfirst){
+                                $metadatas[] = array("name"=>"RootStopRef","attributes"=>array("tourml:id"=> $vt_stop->get("ca_tour_stops.idno")));
+                                
+                                $xml->setMetadatas($metadatas);
+                                $xml->addMetadataProperty(array("google-analytics"=>"UA-123456"));
+                                
+                                $nonfirst = true;
+                            }
+                            
+                            
                             $vt_stopContent[] = array(
                                 "name" => "Title",
                                 "value" => $vt_stop->get("ca_tour_stops.preferred_labels"),
@@ -208,9 +215,9 @@
                             }
                             
                             if($vs_code != null){
-                                $xml->addStop($vt_stop->get("ca_tour_stops.idno"), "StopGroup", $vt_stopContent, $asset_refs, array("code"=>$vs_code), $asset_sources );
+                                $xml->addStop($vt_stop->get("ca_tour_stops.idno"), "stop_group", $vt_stopContent, $asset_refs, array("code"=>$vs_code), $asset_sources );
                             }else{
-                                $xml->addStop($vt_stop->get("ca_tour_stops.idno"), "StopGroup", $vt_stopContent, $asset_refs, null, $asset_sources );
+                                $xml->addStop($vt_stop->get("ca_tour_stops.idno"), "stop_group", $vt_stopContent, $asset_refs, null, $asset_sources );
                             }
                             
                             
