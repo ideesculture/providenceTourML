@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tourml:TourSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tourml="http://tapintomuseums.org/TourML" xsi:schemaLocation="http://tapintomuseums.org/TourML TourML.xsd">
+  <tourml:TourMLRef tourml:uri="http://localhost/tap/node/113/tourml.xml" tourml:lastModified="2013-03-13T14:58:26-04:00"/>
+  <tourml:TourMLRef tourml:uri="http://localhost/tap/node/37/tourml.xml" tourml:lastModified="2013-03-13T14:52:17-04:00"/>
+  <tourml:TourMLRef tourml:uri="http://localhost/tap/node/1/tourml.xml" tourml:lastModified="2013-02-25T13:13:03-05:00"/>
+</tourml:TourSet>

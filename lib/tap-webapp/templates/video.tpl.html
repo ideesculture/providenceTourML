@@ -5,8 +5,18 @@
 	<%= source %>
 	<% }); %>
 </video>
+<% if (!_.isEmpty(description)) { %>
+<div id="description" data-role="collapsible" data-content-theme="c">
+	<h3>Description</h3>
+	<p><%= description %></p>
+</div>
+<% } %>
 <% if (!_.isEmpty(transcription)) { %>
 <div id="transcription" data-role="collapsible" data-content-theme="c">
 	<h3>Transcript</h3>
 	<p><%= transcription %></p>
+</div>
+<% } %>
+<% if (!_.isUndefined(nextStopPath)) { %>
+    <a href="<%= nextStopPath %>" data-role="button" class="next-button">next</a>
 <% } %>
