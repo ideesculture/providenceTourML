@@ -65,7 +65,7 @@ class tourml {
 		}
 	}
 	
-	public function addStop($id, $view,array $contents=NULL, array $assetrefs=NULL, array $properties=NULL) {
+	public function addStop($id, $view,array $contents=NULL, array $assetrefs=NULL, array $properties=NULL, $asset_content= NULL) {
 		$stop = $this->createElement($this->dom, 'tourml:Stop', NULL, array("tourml:id"=>$id,"tourml:view"=>$view));
 		$this->dom->getElementsByTagName('tourml:Tour')->item(0)->appendChild($stop);
 		if (sizeof($contents)) {
@@ -91,27 +91,27 @@ class tourml {
 				}
 			$stop->appendChild($propertySet);
 		}
-	}
+                }
 	
 	public function addAsset($id, array $sources=NULL, array $contents=NULL) {
 		$asset = $this->createElement($this->dom, 'tourml:Asset', NULL, array("tourml:id"=>$id));
 		$this->dom->getElementsByTagName('tourml:Tour')->item(0)->appendChild($asset);
-		if (sizeof($sources)) {
+                if (sizeof($sources)) {
 			foreach($sources as $source) {
 				$properties = $source["properties"];
 				unset($source["properties"]);
-				$sourcenode = $this->createElement($this->dom, 'tourml:Source', NULL, $source);
-				$asset->appendChild($sourcenode);
-				if (sizeof($properties)) {
-					$propertySet = $this->dom->createElement('tourml:PropertySet');
-					foreach($properties as $key=>$val) {
-						$property = $this->createElement($this->dom, 'tourml:Property', $val, array("tourml:name"=>$key));
-						// Find the parent node 
-						$propertySet->appendChild($property);
-					}
-					$sourcenode->appendChild($propertySet);
-				}
-			}			
+                            $sourcenode = $this->createElement($this->dom, 'tourml:Source', NULL, $source);
+                            $asset->appendChild($sourcenode);
+                            if (sizeof($properties)) {
+                                    $propertySet = $this->dom->createElement('tourml:PropertySet');
+                                    foreach($properties as $key=>$val) {
+                                            $property = $this->createElement($this->dom, 'tourml:Property', $val, array("tourml:name"=>$key));
+                                            // Find the parent node 
+                                            $propertySet->appendChild($property);
+                                    }
+                                    $sourcenode->appendChild($propertySet);
+                            }
+			}	
 		}
 		if (sizeof($contents)) {
 			foreach($contents as $content) {

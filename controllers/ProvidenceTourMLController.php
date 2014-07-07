@@ -33,6 +33,7 @@
  	require_once(__CA_MODELS_DIR__.'/ca_object_representations.php');
  	require_once(__CA_MODELS_DIR__.'/ca_locales.php');
  	require_once(__CA_MODELS_DIR__.'/ca_tours.php');
+        require_once(__CA_MODELS_DIR__.'/ca_tour_stops.php');
  	include_once(__CA_LIB_DIR__.'/ca/Search/TourSearch.php');
  	require_once(__CA_APP_DIR__.'/plugins/providenceTourML/lib/tourml.php');
  	
@@ -95,17 +96,126 @@
 
  			$xml = new tourml();
 
+                        $tour_id = $this->request->getParameter("id", pInteger);
+                        $this->view->setVar("id", $tour_id);
+                        
+                        $vt_tour = new ca_tours($tour_id);
+                        
+                        
  			$metadatas = array(
- 				array("name"=>"Title","value"=>"A sample TourML document","attributes"=>array("xml:lang"=>"en")),
- 				array("name"=>"Title","value"=>"Una muestra TourML documento","attributes"=>array("xml:lang"=>"es")),
- 				array("name"=>"Description","value"=>"This tour is meant to demonstrate proper usage of the TourML standard.","attributes"=>array("xml:lang"=>"en")),
+ 				array("name"=>"Title","value"=>$vt_tour->getLabelForDisplay(),"attributes"=>array("xml:lang"=>"en")),
+ 				array("name"=>"Description","value"=>$vt_tour->get("ca_tours.tour_description"),"attributes"=>array("xml:lang"=>"en")),
  				array("name"=>"Author","value"=>"Indianapolis Museum of Art"),
  				array("name"=>"RootStopRef","attributes"=>array("tourml:id"=>"stop-1"))
  			);
- 			$xml->setMetadatas($metadatas);
+                        
+                        $va_stops = $vt_tour->get("ca_tour_stops.stop_id", array("returnAsArray"=>true));
+                        
+                        $xml->setMetadatas($metadatas);
 
  			$xml->addMetadataProperty(array("google-analytics"=>"UA-123456"));
-
+                        
+                        $asset_sources = array();
+                        $vt_stopContent = array();
+                        foreach ($va_stops as $vn_stop_id){
+                            $vt_stop = new ca_tour_stops($vn_stop_id);
+                            $vt_stopContent[] = array(
+                                "name" => "Title",
+                                "value" => $vt_stop->get("ca_tour_stops.preferred_labels"),
+                                "attributes" => array("xml:lang"=>"en")
+                            );
+                            
+                            $vt_stopContent[] = array(
+                                "name" => "Description",
+                                "value" => $vt_stop->get("ca_tour_stops.tour_stop_description"),
+                                "attributes" => array("xml:lang" => "fr")
+                            );
+                            
+                            $va_header_image = $vt_stop->get("ca_tour_stops.stop_image_header", array("version"=>"page", "return"=>"url", "showMediaInfo"=>true));
+                                                        
+                            $asset_refs = array();
+                            
+                            $asset_refs[] = array(
+                                "id" => "header_".$vn_stop_id,
+                                "usage" => "header_image"
+                            );
+                            
+                            $asset_sources[] = array(
+                                "id" => "header_".$vn_stop_id,
+                                "type" => "header_image",
+                                "format"=>"image/jpeg",
+                                "uri" => $va_header_image,
+                                "lastModified"=>"2011-09-29T12:01:32",
+                                "properties"=>array(
+                                    "width" => 320,
+                                    "height"=> 200
+                                )
+                            );
+                            
+                            var_dump($va_header_image);
+                            die();
+                            
+                            $vs_code = $vt_stop->get("ca_tour_stops.stop_numero");
+                            
+                            $va_assets = $vt_stop->get("ca_objects.object_id", array("returnAsArray"=>true));
+                            
+                            
+                            
+                            foreach($va_assets as $vn_asset_id){
+                                $vt_asset = new ca_objects($vn_asset_id);
+                                
+                                $asset_type =  "page";
+                                
+                                //$asset_media = $vt_asset->get("ca_object_representations.media.large_page", array("returnAsArray"=>true));
+                                $asset_media = reset($vt_asset->getPrimaryRepresentation(array($asset_type))["urls"]);
+                                
+                                $asset_media_width = $vt_asset->getPrimaryRepresentation(array($asset_type))["info"][$asset_type]["WIDTH"];
+                                $asset_media_height = $vt_asset->getPrimaryRepresentation(array($asset_type))["info"][$asset_type]["HEIGHT"];
+                                
+                                //var_dump($asset_media_height);
+                                //die();
+                                
+                                $asset_sources[] = array(
+                                    "id" => $vn_asset_id,
+                                    "type" => "image",
+                                    "format"=>"image/jpeg",
+                                    "uri" => $asset_media,
+                                    "lastModified"=>"2011-09-29T12:01:32",
+                                    "properties"=>array(
+                                        "width" => $asset_media_width,
+                                        "height"=> $asset_media_height
+                                    )
+                                );
+                                
+                                $asset_refs[] = array(
+                                    "id" => $vn_asset_id,
+                                    "usage" => "image"
+                                );
+                                
+                                //var_dump($vt_asset->get("object_id"));
+                                //die();
+                                
+                                //$vs_id = $vt_asset->get("object_id");
+                                
+                                //$xml->addAsset($vs_id, $asset_content);
+                                
+                            }
+                            
+                            if($vs_code != null){
+                                $xml->addStop($vt_stop->get("ca_tour_stops.idno"), "StopGroup", $vt_stopContent, $asset_refs, array("code"=>$vs_code), $asset_sources );
+                            }else{
+                                $xml->addStop($vt_stop->get("ca_tour_stops.idno"), "StopGroup", $vt_stopContent, $asset_refs, null, $asset_sources );
+                            }
+                            
+                            
+                        }
+                        
+                        foreach ($asset_sources as $asset_source){
+                            $xml->addAsset($asset_source["id"], array($asset_source));
+                        }
+                        
+ 			
+                        /*
  			$stop1content = array(
  				array("name"=>"Title","value"=>"Ankhaman's remains","attributes"=>array("xml:lang"=>"en")),
  				array("name"=>"Title","value"=>"remainos Ankhaman's","attributes"=>array("xml:lang"=>"es"))
@@ -119,8 +229,8 @@
  				array("id"=>"img-1","usage"=>"primary")
  			);
  			$xml->addStop("stop-2","ImageStop",$stop2content,$stop2assetrefs,array("code"=>"200"));
- 			
- 			$asset1sources = array(
+ 			*/
+ 			/*$asset1sources = array(
  				array(
  					"tourml:format"=>"video/quicktime",
  					"tourml:lastModified"=>"2011-09-29T12:01:32",
@@ -143,7 +253,7 @@
  				)	
  			);
  			$xml->addAsset("geo-1",NULL,$asset2content);
- 			
+ 			*/
  			$this->view->setVar('xml', $xml->get());
 			$this->render('export_html.php');			 				
  		}
