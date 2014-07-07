@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tourml:Tour xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tourml="http://tapintomuseums.org/TourML" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://tapintomuseums.org/TourML TourML.xsd" tourml:id="com.ideesculture.collectiveaccess.tourml">
+  <tourml:TourMetadata>
+    <tourml:Title xml:lang="en">Grand la Gallo-romaine</tourml:Title>
+    <tourml:Description xml:lang="en">Le site de Grand a livré de nombreux vestiges qui démontrent l’existence d’une ville très singulière qui ne cesse d’étonner par la monumentalité de ses édifices. En dépit de plus d’un siècle de recherches, beaucoup de questions subsistent.&#13;
+&#13;
+Plongez dans l’histoire de l’une des plus mystérieuses villes gallo-romaines...</tourml:Description>
+<tourml:Author>Indianapolis Museum of Art</tourml:Author>
+<tourml:AppResource tourml:id="asset-image-15" tourml:usage="image" />
+<tourml:RootStopRef tourml:id="stop-6"/>
+<tourml:PropertySet>
+<tourml:Property tourml:name="initial_map_zoom" >13</tourml:Property>
+</tourml:PropertySet>
+</tourml:TourMetadata>
+<tourml:Stop tourml:id="stop-7" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Photographie de la Tour de la Mothe]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-3" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-39" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Gargouille]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-14" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-40" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Réseau d'eau]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-15" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-62" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[La tour de la Mothe]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-98" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-6" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[1 - La tour de la Mothe]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Tour ronde qui défend la petite entrée du château côté ville. Sans doute une construction Neufchâtel (famille comtoise) du 15ème siècle.</p>
+<p>Vous pouvez remarquer le bel appareillage du parement à joints très fins et un vestige de gargouille sur la muraille, un des exutoires du réseau d'eaux de sources qui desservait le château.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-geo-6-0" tourml:usage="geo" />
+<tourml:AssetRef tourml:id="asset-header_image-68" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >100</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-41" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Intérieur de la tour]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-16" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-42" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Battants de portes]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-17" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-43" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Crapaudine du seuil de la porte]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-18" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-60" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Seuils de la petite entrée]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-96" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-31" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[2 - Seuils de la petite porte]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Le seuil de la double porte qui donne vers la ville est marqué en creux par la passage des chariots. On voit toujours l'emplacement des axes des vantaux (battants de portes) et une pièce métallique subsiste toujours (la crapaudine), qui recevait la partie basse de cet axe.</p>
+<p>L'intérieur de la tour est pavé de larges dalles de grés, et ouvre sur une petite pièce qui pouvait servir de corps de garde. Une base de canonnière subsite, accolée à un vestige de foyer de cheminée. Quelques mètres plus loin un autre ensemble de portes doubles ouvre la basse-cour.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-header_image-75" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >101</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-44" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Basse-cour]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-19" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-54" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[La basse-cour]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-90" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-32" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[3 - La basse-cour]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Cette zone bien protégée comprenait tous les bâtiments indispensables à la vie et à l'intendance : celliers, engrangements... un logis s'élevait là, qu'on peut localiser grâce aux bases d'une cage d'escalier en colimaçon.</p>
+<p>En avançant vers la tour carrée (édifice massif qui comporte les seuls parements à bossages du château) on domine la vallée du ruisseau de l'étang châtelain, dont la mise en eau, offrait une défense supplémentaire. Des quantités de blé ont été trouvés derrière cette tour.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-header_image-73" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >102</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-45" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Chemise du château]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-20" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-56" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[La chemise]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-92" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-33" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[4 - La chemise]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>L'enceinte intérieure du château, édifiée à une date incertaine, mais qu'on peut estimer entre le 12ème et le 14ème siècle. Elle soutient sur la face Est la terrasse du donjon, ce qui lui évite d'être déconstruite pour en récupérer ses matériaux.<br />
+Cette muraille est renforcée à la fin du 16ème siècle par l'ajout d'une surépaisseur de maçonnerie dans le but de l'adapter à l'artillerie.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-header_image-69" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >103</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-46" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Copie de la pierre de Diane]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-21" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-59" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[La pierre de Diane]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-95" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-34" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[5 - La pierre de Diane]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>La dernière campagne de renforcement du château est précisément datée par cette pierre de fondation de 1596, dont la copie est placée à proximité de l'original.</p>
+<p>Ces travaux correspondent à une période troublée en Lorraine, plus que jamais au centre des conflits entre royaume de France et Empire, déchirée par les guerres de religions, période donc où l'on relève et renforce les murailles.</p>
+<p>Cette pierre porte les monogrammes de Charles Philippe de Croy et de Diane de Dommartin dont le blason était "de gueules à deux delta d'or entrecroisés" (les deux D de son nom, delta en grec).</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-header_image-106" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >104</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-47" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Arcature de la Chapelle]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-22" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-55" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[La chapelle]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Photo de la chapelle</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-audio-91" tourml:usage="audio" />
+<tourml:AssetRef tourml:id="asset-image-107" tourml:usage="image" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-35" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[6 - La chapelle]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Ce bâtiment dont il ne subsiste que la base a pu être à la fois un élément de défense et la chapelle du château, que les textes mentionnent sans toutefois la localiser.</p>
+<p>Un faisceau d'indices tendent à confirmer la fonction de cet ouvrage :<br />
+- proximité du coeur du château et accès direct à la terrasse du donjon<br />
+- orientation du chevet vers l'Est<br />
+- pierre sculptée figurant une arcature (ensemble d'arcs), dont un fragment est trouvé à cet endroit.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-header_image-105" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >105</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-48" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[La petite porte]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-23" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-58" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[La petite porte]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-94" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-36" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[7 - La petite porte]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>Accès direct entre la terrasse du donjon et le bâtiment qui pouvait être ou être affecté à la chapelle castrale. Sur le côté de la porte une ouverture qui permet le tir à l'aide d'une arme de petit calibre.</p>
+<p>Cette porte est située en surplomb du sol de la chapelle. On y parvient depuis la terrasse du donjon par un escalier assez large, ce qui tend à faire croire que l'usage religieux a primé sur l'usage militaire lequel imposerait un passage étroit, facile à condamner pour en interdire l'accès.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-header_image-104" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >106</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-49" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Côté Est de la terrasse]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-24" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-50" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Crêtes des verreries]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-25" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-61" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[La terrasse]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-97" tourml:usage="audio" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-37" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[8 - La terrasse sommitale]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>c'est la partie supérieure de l'éperon de grès défini par les deux vallées : du Côney et de son affluent le ruisseau Châtelain. C'est la partie du château qui a le plus souffert des déconstructions postérieures à la révolution, où il est vendu "pour ses matériaux". La facilité des accès à ce niveau explique cela.</p>
+<p>On devine côté Sud les vestiges du fossé sec qui défendait le flanc le plus exposé de la forteresse. En se tournant vers le Nord (vers Fontenoy) on aperçoit les crêtes d'un grand massif forestier où plusieurs verreries produisaient à la Renaissance, le grand verre (verre à vitrail) que les rouliers de Fontenoy convoyaient dans une grande partie de l'Europe.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-header_image-74" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >107</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-51" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Le donjon]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-26" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-52" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Parement Est]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-27" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-53" tourml:view="image_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Parement Nord]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-image_stop-image_asset-28" tourml:usage="image_asset"/>
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-57" tourml:view="audio_stop">
+    <tourml:Title xml:lang="fr"><![CDATA[Le donjon]]></tourml:Title>
+<tourml:AssetRef tourml:id="asset-audio-93" tourml:usage="audio" />
+<tourml:AssetRef tourml:id="asset-image-102" tourml:usage="image" />
+</tourml:Stop>
+<tourml:Stop tourml:id="stop-38" tourml:view="stop_group">
+    <tourml:Title xml:lang="fr"><![CDATA[9 - Le donjon]]></tourml:Title>
+<tourml:Description xml:lang="fr"><![CDATA[<p>La construction de cette tour est l'oeuvre des évêques de Toul (54) qui possèdent cette terre, y fondent également un prieuré bénédictin, établissent un barrage sur le Côney pour faire tourner un moulin dépendant du prieuré.</p>
+<p>Le donjon ou "Carrée Tour" a été récemment daté par analyse C14 des charbons de bois recueillis dans le mortier de chaux des murs. Datation entre 950 et 1020, avec une forte probabilité vers 980, ce qui en fait le plus vieil ouvrage militaire de ce type subsistant en Lorraine.</p>
+<p>Mais d'autres caractéristiques en font un monument exceptionnel :<br />
+- la qualité de son parement et la dimension hors normes pour l'époque des pierres de taille qui le composent<br />
+- un mortier qui peut contenir des proportions de chaux allant jusqu'à 70%</p>
+<p>L'archéologue Cédric Moulis, de l'université de Nancy émet l'hypothèse que l'ouvrage pouvait être enduit à la chaux (blanche) pour accentuer son aspect ostentatoire, et une saisissante impression de puissance devait effectivement émaner de cette masse dominant la vallée.</p>
+]]></tourml:Description><tourml:AssetRef tourml:id="asset-header_image-100" tourml:usage="header_image" />
+<tourml:PropertySet>
+<tourml:Property tourml:name="code" >108</tourml:Property>
+</tourml:PropertySet>
+</tourml:Stop>
+<tourml:Asset tourml:id="asset-geo-5-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[6.20032,47.9731]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >47.9731,6.20032</tourml:Property>
+<tourml:Property tourml:name="bbox" >6.20032,6.20032,47.9731,47.9731</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-image-15" tourml:type="image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-17T12:02:50+02:00" xml:lang="fr" tourml:uri="assets/splash_chateau.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >591</tourml:Property>
+<tourml:Property tourml:name="height" >394</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-geo-6-0" tourml:type="geo">
+        <tourml:Content>
+        <tourml:Data><![CDATA[{"type":"Point","coordinates":[6.20026,47.9732]}]]></tourml:Data>
+        <tourml:PropertySet>
+<tourml:Property tourml:name="centroid" >47.9732,6.20026</tourml:Property>
+<tourml:Property tourml:name="bbox" >6.20026,6.20026,47.9732,47.9732</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Content>
+        </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-98" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-26T17:58:43+02:00" xml:lang="fr" tourml:uri="assets/audio_tourmothe.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:22</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >aac</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-68" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T07:11:23+02:00" xml:lang="fr" tourml:uri="assets/header_mothe_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >213</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-96" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-26T17:56:49+02:00" xml:lang="fr" tourml:uri="assets/audio_seuil.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:36</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >aac</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-75" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T07:44:38+02:00" xml:lang="fr" tourml:uri="assets/header_seuil.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >176</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-90" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-26T17:52:18+02:00" xml:lang="fr" tourml:uri="assets/audio_bassecourt.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:31</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >aac</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-73" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T07:20:59+02:00" xml:lang="fr" tourml:uri="assets/header_bassecour1.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >213</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-92" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-26T17:53:40+02:00" xml:lang="fr" tourml:uri="assets/audio_chemise.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:24</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >aac</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-69" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T07:11:55+02:00" xml:lang="fr" tourml:uri="assets/header_chemise.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >213</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-95" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-26T17:56:10+02:00" xml:lang="fr" tourml:uri="assets/audio_pierrediane.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:39</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >aac</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-106" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-27T09:01:38+02:00" xml:lang="fr" tourml:uri="assets/header_pierrediane_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >173</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-91" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-26T17:53:03+02:00" xml:lang="fr" tourml:uri="assets/audio_chapelle.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:27</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >aac</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image-107" tourml:type="image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-27T09:02:32+02:00" xml:lang="fr" tourml:uri="assets/header_chapelle.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >213</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-105" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-27T09:00:57+02:00" xml:lang="fr" tourml:uri="assets/header_chapelle_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >213</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-94" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-26T17:55:24+02:00" xml:lang="fr" tourml:uri="assets/audio_petiteporte.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:31</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >aac</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-104" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-27T09:00:16+02:00" xml:lang="fr" tourml:uri="assets/header_porte_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >280</tourml:Property>
+<tourml:Property tourml:name="height" >272</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-97" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-26T17:57:39+02:00" xml:lang="fr" tourml:uri="assets/audio_terrasse.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:00:42</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >aac</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-74" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T07:21:32+02:00" xml:lang="fr" tourml:uri="assets/header_terrasse1.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >213</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-audio-93" tourml:type="audio">
+            <tourml:Source tourml:format="audio/mpeg" tourml:lastModified="2013-05-26T17:54:28+02:00" xml:lang="fr" tourml:uri="assets/audio_donjon.mp3">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="duration" >00:01:15</tourml:Property>
+<tourml:Property tourml:name="audio_codec" >aac</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image-102" tourml:type="image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-27T08:44:22+02:00" xml:lang="fr" tourml:uri="assets/audiio_donjon.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >1000</tourml:Property>
+<tourml:Property tourml:name="height" >667</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-header_image-100" tourml:type="header_image">
+            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-27T08:02:04+02:00" xml:lang="fr" tourml:uri="assets/header_donjon_0.jpg">
+                                    <tourml:PropertySet>
+<tourml:Property tourml:name="width" >320</tourml:Property>
+<tourml:Property tourml:name="height" >213</tourml:Property>
+</tourml:PropertySet>
+    </tourml:Source>
+    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-3" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[© association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-17T12:10:43+02:00" 
+            xml:lang="fr" tourml:uri="assets/chateau_img01_0.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >591</tourml:Property>
+<tourml:Property tourml:name="height" >394</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-17T12:10:43+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/chateau_img01_0.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[La tour de la Mothe]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-14" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[La gargouille d&#039;évacuation d&#039;eau.
+©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-20T11:27:58+02:00" 
+            xml:lang="fr" tourml:uri="assets/gargouille.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >2000</tourml:Property>
+<tourml:Property tourml:name="height" >1333</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-20T11:27:58+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/gargouille.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Gargouille]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-15" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[Le système de réseau d&#039;eau desservant le château.
+©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-20T11:33:24+02:00" 
+            xml:lang="fr" tourml:uri="assets/reseau_deau.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >2000</tourml:Property>
+<tourml:Property tourml:name="height" >1333</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-20T11:33:24+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/reseau_deau.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Réseau d&#039;eau]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-16" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[Intérieur de la tour de la Mothe
+©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T07:47:07+02:00" 
+            xml:lang="fr" tourml:uri="assets/chateau_img02_0.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >591</tourml:Property>
+<tourml:Property tourml:name="height" >394</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T07:47:07+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/chateau_img02_0.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Intérieur de la tour]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-17" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[Cet axe nous permet de penser, que les portes s&#039;ouvraient vers l&#039;extérieur.
+©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T07:55:34+02:00" 
+            xml:lang="fr" tourml:uri="assets/vantaux.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >1000</tourml:Property>
+<tourml:Property tourml:name="height" >1500</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T07:55:34+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/vantaux.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >67</tourml:Property>
+<tourml:Property tourml:name="height" >100</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Axes des vantaux]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-18" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T07:59:18+02:00" 
+            xml:lang="fr" tourml:uri="assets/crapaudine.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >1000</tourml:Property>
+<tourml:Property tourml:name="height" >667</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T07:59:18+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/crapaudine.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Crapaudine]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-19" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:07:19+02:00" 
+            xml:lang="fr" tourml:uri="assets/chateau_img03_0.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >591</tourml:Property>
+<tourml:Property tourml:name="height" >394</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:07:19+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/chateau_img03_0.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[La basse-cour]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-20" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:09:39+02:00" 
+            xml:lang="fr" tourml:uri="assets/chateau_img04_0.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >591</tourml:Property>
+<tourml:Property tourml:name="height" >394</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:09:39+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/chateau_img04_0.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[La chemise]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-21" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:14:27+02:00" 
+            xml:lang="fr" tourml:uri="assets/copie_diane.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >1000</tourml:Property>
+<tourml:Property tourml:name="height" >667</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:14:27+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/copie_diane.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Copie de la pierre de Diane]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-22" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[Arcature trouvée à proximité de la chapelle.
+©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:15:39+02:00" 
+            xml:lang="fr" tourml:uri="assets/chateau_img07_0.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >567</tourml:Property>
+<tourml:Property tourml:name="height" >850</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:15:39+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/chateau_img07_0.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >67</tourml:Property>
+<tourml:Property tourml:name="height" >100</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Arcature]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-23" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[Petite porte en surplomb de la chapelle.
+©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:18:47+02:00" 
+            xml:lang="fr" tourml:uri="assets/chateau_img08_0.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >567</tourml:Property>
+<tourml:Property tourml:name="height" >850</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:18:47+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/chateau_img08_0.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >67</tourml:Property>
+<tourml:Property tourml:name="height" >100</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[La petite porte]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-24" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:21:57+02:00" 
+            xml:lang="fr" tourml:uri="assets/chateau_img09_0.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >591</tourml:Property>
+<tourml:Property tourml:name="height" >394</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:21:57+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/chateau_img09_0.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Vue Est de la terrasse]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-25" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[Crêtes où se situaient les verreries.
+©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:26:03+02:00" 
+            xml:lang="fr" tourml:uri="assets/crete_verreries.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >1000</tourml:Property>
+<tourml:Property tourml:name="height" >667</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:26:03+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/crete_verreries.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Vue sur les crêtes]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-26" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[Le donjon du château, également appelé la &quot;tour carrée&quot;.
+©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:29:40+02:00" 
+            xml:lang="fr" tourml:uri="assets/chateau_img11_0.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >567</tourml:Property>
+<tourml:Property tourml:name="height" >760</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:29:40+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/chateau_img11_0.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >75</tourml:Property>
+<tourml:Property tourml:name="height" >100</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Le donjon]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-27" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:31:52+02:00" 
+            xml:lang="fr" tourml:uri="assets/chateau_img12_0.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >591</tourml:Property>
+<tourml:Property tourml:name="height" >394</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:31:52+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/chateau_img12_0.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Parement Est du donjon]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Asset tourml:id="asset-image_stop-image_asset-28" tourml:type="image_asset">
+                    <tourml:Content tourml:part="caption">
+            <tourml:Data><![CDATA[©association des AVF]]></tourml:Data>
+                                </tourml:Content>
+                                            <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:32:55+02:00" 
+            xml:lang="fr" tourml:uri="assets/chateau_img13_0.jpg" tourml:part="image">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >591</tourml:Property>
+<tourml:Property tourml:name="height" >394</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                                    <tourml:Source tourml:format="image/jpeg" tourml:lastModified="2013-05-21T09:32:55+02:00" 
+            xml:lang="fr" tourml:uri="assets/styles/thumbnail/public/chateau_img13_0.jpg" tourml:part="thumbnail">
+                                                <tourml:PropertySet>
+<tourml:Property tourml:name="width" >100</tourml:Property>
+<tourml:Property tourml:name="height" >67</tourml:Property>
+</tourml:PropertySet>
+        </tourml:Source>
+                            <tourml:Content tourml:part="title">
+            <tourml:Data><![CDATA[Parement Nord du donjon]]></tourml:Data>
+                                </tourml:Content>
+                    </tourml:Asset>
+<tourml:Connection tourml:srcId="stop-6" tourml:destId="stop-7" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-6" tourml:destId="stop-39" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-6" tourml:destId="stop-40" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-6" tourml:destId="stop-62" tourml:priority="4" />
+<tourml:Connection tourml:srcId="stop-31" tourml:destId="stop-41" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-31" tourml:destId="stop-42" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-31" tourml:destId="stop-43" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-31" tourml:destId="stop-60" tourml:priority="4" />
+<tourml:Connection tourml:srcId="stop-32" tourml:destId="stop-44" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-32" tourml:destId="stop-54" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-33" tourml:destId="stop-45" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-33" tourml:destId="stop-56" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-34" tourml:destId="stop-46" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-34" tourml:destId="stop-59" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-35" tourml:destId="stop-47" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-35" tourml:destId="stop-55" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-36" tourml:destId="stop-48" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-36" tourml:destId="stop-58" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-37" tourml:destId="stop-49" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-37" tourml:destId="stop-50" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-37" tourml:destId="stop-61" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-38" tourml:destId="stop-51" tourml:priority="1" />
+<tourml:Connection tourml:srcId="stop-38" tourml:destId="stop-52" tourml:priority="2" />
+<tourml:Connection tourml:srcId="stop-38" tourml:destId="stop-53" tourml:priority="3" />
+<tourml:Connection tourml:srcId="stop-38" tourml:destId="stop-57" tourml:priority="4" />
+</tourml:Tour>

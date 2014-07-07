@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tourml:Tour xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tourml="http://tapintomuseums.org/TourML" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://tapintomuseums.org/TourML TourML.xsd" tourml:id="com.ideesculture.collectiveaccess.tourml">
+  <tourml:TourMetadata>
+    <tourml:Title xml:lang="en"/>
+    <tourml:Description xml:lang="en"/>
+    <tourml:Author>Providence TourML</tourml:Author>
+    <tourml:AppResource tourml:id="tour_image_header" tourml:usage="image"/>
+    <tourml:RootStopRef tourml:id="stop-1"/>
+  </tourml:TourMetadata>
+  <tourml:PropertySet>
+    <tourml:Property tourml:name="google-analytics">UA-123456</tourml:Property>
+  </tourml:PropertySet>
+  <tourml:Asset tourml:id="tour_image_header">
+    <tourml:Source id="tour_image_header" type="image" format="image/jpeg" uri="" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+</tourml:Tour>

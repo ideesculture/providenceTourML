@@ -79,25 +79,7 @@
 							'action' => 'Index'
 						)
 					);	
-
-				$va_menu_items[1] = array(
-						'displayName' => _t("export"),
-						"default" => array(
-							'module' => 'providenceTourML',
-							'controller' => 'providenceTourML',
-							'action' => 'Export'
-						)
-					);	
-
-				$va_menu_items[2] = array(
-						'displayName' => _t("preview"),
-						"default" => array(
-							'module' => 'providenceTourML',
-							'controller' => 'providenceTourML',
-							'action' => 'Preview'
-						)
-					);	
-				
+                                
 				$pa_menu_bar['tourML_menu'] = array(
 					'displayName' => _t('tourML'),
 					'navigation' => $va_menu_items

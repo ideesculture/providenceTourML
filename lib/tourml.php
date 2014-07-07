@@ -45,7 +45,7 @@ class tourml {
 	}
 	
 	public function setMetadatas(array $input) {
-		$tourMetadatas = $this->dom->createElement('tourml:Metadata');
+		$tourMetadatas = $this->dom->createElement('tourml:TourMetadata');
 		$this->tour->appendChild($tourMetadatas);
 		
 		foreach($input as $i) {

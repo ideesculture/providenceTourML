@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tourml:Tour xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tourml="http://tapintomuseums.org/TourML" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://tapintomuseums.org/TourML TourML.xsd" tourml:id="com.ideesculture.collectiveaccess.tourml">
+  <tourml:TourMetadata>
+    <tourml:Title xml:lang="en">Château de folleville</tourml:Title>
+    <tourml:Description xml:lang="en">dhsjk fhdsjk fjdskql </tourml:Description>
+    <tourml:Author>Providence TourML</tourml:Author>
+    <tourml:AppResource tourml:id="tour_image_header" tourml:usage="image"/>
+    <tourml:RootStopRef tourml:id="stop-1"/>
+  </tourml:TourMetadata>
+  <tourml:PropertySet>
+    <tourml:Property tourml:name="google-analytics">UA-123456</tourml:Property>
+  </tourml:PropertySet>
+  <tourml:Stop tourml:id="12_Moise" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:AssetRef tourml:id="header_15" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="6" tourml:usage="image"/>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="13_Test_GM" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:AssetRef tourml:id="header_14" tourml:usage="header_image"/>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="folleville-chateau-1" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">1. Devant l’entrée du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans des temps anciens (15e siècle ?) où les armes à feu portables étaient rares, l’entrée des châteaux fortifiés consistait en une porte piétonne et une porte cochère (par exemple Picquigny), et de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 - pas très réussie, en béton …&lt;br /&gt;&#13;
+On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</tourml:Description>
+    <tourml:AssetRef tourml:id="header_2" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="1" tourml:usage="image"/>
+    <tourml:PropertySet>
+      <tourml:Property tourml:name="code">1</tourml:Property>
+    </tourml:PropertySet>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="folleville-chateau-2" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">1. Devant l’entrée du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans des temps anciens (15e siècle ?) où les armes à feu portables étaient rares, l’entrée des châteaux fortifiés consistait en une porte piétonne et une porte cochère (par exemple Picquigny), et de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 - pas très réussie, en béton …&lt;br /&gt;&#13;
+On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</tourml:Description>
+    <tourml:Title xml:lang="en">2. Au-dessus du porche de l’église</tourml:Title>
+    <tourml:Description xml:lang="fr">La niche au-dessus du porche de l’église abritait initialement une statue de Saint Jacques qui a été transférée (vers 1840) en haut du contrefort pour être visible de tous. Saint-Jacques de Compostelle, patron de Folleville, c’est une vieille histoire : Jean III de Folleville, grand prévôt des marchands de Paris, de 1388 à 1401, avait été chargé d’une ambassade auprès du roi Jean de Castille en 1486 et était revenu par Compostelle. Au retour il avait construit cette église par dévotion à ce personnage, qui est représenté en marche ; malgré l’usure du temps on devine encore la coquille sculptée sur son chapeau.</tourml:Description>
+    <tourml:AssetRef tourml:id="header_3" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="1" tourml:usage="image"/>
+    <tourml:PropertySet>
+      <tourml:Property tourml:name="code">2</tourml:Property>
+    </tourml:PropertySet>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="folleville-chateau-3" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">1. Devant l’entrée du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans des temps anciens (15e siècle ?) où les armes à feu portables étaient rares, l’entrée des châteaux fortifiés consistait en une porte piétonne et une porte cochère (par exemple Picquigny), et de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 - pas très réussie, en béton …&lt;br /&gt;&#13;
+On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</tourml:Description>
+    <tourml:Title xml:lang="en">2. Au-dessus du porche de l’église</tourml:Title>
+    <tourml:Description xml:lang="fr">La niche au-dessus du porche de l’église abritait initialement une statue de Saint Jacques qui a été transférée (vers 1840) en haut du contrefort pour être visible de tous. Saint-Jacques de Compostelle, patron de Folleville, c’est une vieille histoire : Jean III de Folleville, grand prévôt des marchands de Paris, de 1388 à 1401, avait été chargé d’une ambassade auprès du roi Jean de Castille en 1486 et était revenu par Compostelle. Au retour il avait construit cette église par dévotion à ce personnage, qui est représenté en marche ; malgré l’usure du temps on devine encore la coquille sculptée sur son chapeau.</tourml:Description>
+    <tourml:Title xml:lang="en">3. Le fossé</tourml:Title>
+    <tourml:Description xml:lang="fr">A vos pieds un fossé large et profond, permettant de voir venir les assaillants et les garder à distance : 20 m. de large, 5 à 7 m de profondeur. Ce sont des douves sèches : les fossés en eau, c’était dans les vallées comme à Eaucourt près d’Abbeville, ou dans les marais comme à La Fère, dans l’Aisne. Pour pouvoir passer juqu’au pied des murs il fallait au moins 200 fagots empilés et faisant passerelle. Un amoncellement rapide était impossible. Sinon, pour aborder au pied du château, le haut de l’escarpement était dominé par un a-pic de 2 m.</tourml:Description>
+    <tourml:AssetRef tourml:id="header_5" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="1" tourml:usage="image"/>
+    <tourml:PropertySet>
+      <tourml:Property tourml:name="code">3</tourml:Property>
+    </tourml:PropertySet>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="folleville-chateau-4" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">1. Devant l’entrée du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans des temps anciens (15e siècle ?) où les armes à feu portables étaient rares, l’entrée des châteaux fortifiés consistait en une porte piétonne et une porte cochère (par exemple Picquigny), et de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 - pas très réussie, en béton …&lt;br /&gt;&#13;
+On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</tourml:Description>
+    <tourml:Title xml:lang="en">2. Au-dessus du porche de l’église</tourml:Title>
+    <tourml:Description xml:lang="fr">La niche au-dessus du porche de l’église abritait initialement une statue de Saint Jacques qui a été transférée (vers 1840) en haut du contrefort pour être visible de tous. Saint-Jacques de Compostelle, patron de Folleville, c’est une vieille histoire : Jean III de Folleville, grand prévôt des marchands de Paris, de 1388 à 1401, avait été chargé d’une ambassade auprès du roi Jean de Castille en 1486 et était revenu par Compostelle. Au retour il avait construit cette église par dévotion à ce personnage, qui est représenté en marche ; malgré l’usure du temps on devine encore la coquille sculptée sur son chapeau.</tourml:Description>
+    <tourml:Title xml:lang="en">3. Le fossé</tourml:Title>
+    <tourml:Description xml:lang="fr">A vos pieds un fossé large et profond, permettant de voir venir les assaillants et les garder à distance : 20 m. de large, 5 à 7 m de profondeur. Ce sont des douves sèches : les fossés en eau, c’était dans les vallées comme à Eaucourt près d’Abbeville, ou dans les marais comme à La Fère, dans l’Aisne. Pour pouvoir passer juqu’au pied des murs il fallait au moins 200 fagots empilés et faisant passerelle. Un amoncellement rapide était impossible. Sinon, pour aborder au pied du château, le haut de l’escarpement était dominé par un a-pic de 2 m.</tourml:Description>
+    <tourml:Title xml:lang="en">4. Un plan vertical</tourml:Title>
+    <tourml:Description xml:lang="fr">Vus ainsi de profil, les vestiges de ce château sont marqués par des lignes verticales ; le pouvoir se manifeste par la hauteur des murs (et leur épaisseur). Celui qui domine doit alors surplomber, avec ses archers et arbalétriers du haut du chemin de ronde. Plus tard, à partir surtout du 16e s. déjà, devant la diffusion des bombardes et de l’artillerie on devra garder l’adversaire à distance, et les lignes horizontales vont caractériser l’architecture militaire. Ce sont les fortifications de Vauban, et l’organisation du paysage de Versailles au 17e s.</tourml:Description>
+    <tourml:AssetRef tourml:id="header_6" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="1" tourml:usage="image"/>
+    <tourml:PropertySet>
+      <tourml:Property tourml:name="code">4</tourml:Property>
+    </tourml:PropertySet>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="folleville-chateau-5" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">1. Devant l’entrée du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans des temps anciens (15e siècle ?) où les armes à feu portables étaient rares, l’entrée des châteaux fortifiés consistait en une porte piétonne et une porte cochère (par exemple Picquigny), et de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 - pas très réussie, en béton …&lt;br /&gt;&#13;
+On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</tourml:Description>
+    <tourml:Title xml:lang="en">2. Au-dessus du porche de l’église</tourml:Title>
+    <tourml:Description xml:lang="fr">La niche au-dessus du porche de l’église abritait initialement une statue de Saint Jacques qui a été transférée (vers 1840) en haut du contrefort pour être visible de tous. Saint-Jacques de Compostelle, patron de Folleville, c’est une vieille histoire : Jean III de Folleville, grand prévôt des marchands de Paris, de 1388 à 1401, avait été chargé d’une ambassade auprès du roi Jean de Castille en 1486 et était revenu par Compostelle. Au retour il avait construit cette église par dévotion à ce personnage, qui est représenté en marche ; malgré l’usure du temps on devine encore la coquille sculptée sur son chapeau.</tourml:Description>
+    <tourml:Title xml:lang="en">3. Le fossé</tourml:Title>
+    <tourml:Description xml:lang="fr">A vos pieds un fossé large et profond, permettant de voir venir les assaillants et les garder à distance : 20 m. de large, 5 à 7 m de profondeur. Ce sont des douves sèches : les fossés en eau, c’était dans les vallées comme à Eaucourt près d’Abbeville, ou dans les marais comme à La Fère, dans l’Aisne. Pour pouvoir passer juqu’au pied des murs il fallait au moins 200 fagots empilés et faisant passerelle. Un amoncellement rapide était impossible. Sinon, pour aborder au pied du château, le haut de l’escarpement était dominé par un a-pic de 2 m.</tourml:Description>
+    <tourml:Title xml:lang="en">4. Un plan vertical</tourml:Title>
+    <tourml:Description xml:lang="fr">Vus ainsi de profil, les vestiges de ce château sont marqués par des lignes verticales ; le pouvoir se manifeste par la hauteur des murs (et leur épaisseur). Celui qui domine doit alors surplomber, avec ses archers et arbalétriers du haut du chemin de ronde. Plus tard, à partir surtout du 16e s. déjà, devant la diffusion des bombardes et de l’artillerie on devra garder l’adversaire à distance, et les lignes horizontales vont caractériser l’architecture militaire. Ce sont les fortifications de Vauban, et l’organisation du paysage de Versailles au 17e s.</tourml:Description>
+    <tourml:Title xml:lang="en">5. Le pont</tourml:Title>
+    <tourml:Description xml:lang="fr">Deux piliers du 18e siècle marquaient le passage obligé par un pont de pierre à trois arches qui avait succédé à une passerelle de bois devant le pont-levis. Là encore une porte piétonne accompagnait la grande entrée du château sur sa droite. On entrait alors par ce porche dans la grande aile du château qui faisait face à la basse-cour. Un large bâtiment de deux étages abritait les appartements privés du château, et aussi la chapelle de la famille. De part et d’autre de ce passage, le four à pain à main gauche, et la chapelle à droite encadraient étroitement ce pont-levis sur lequel on ne pouvait s’engager imprudemment. Toute cette partie de l’ancienne demeure seigneuriale a été détruite. Il ne reste que des inventaires d’archives pour reconstituer mentalement ce passé. </tourml:Description>
+    <tourml:AssetRef tourml:id="header_7" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="1" tourml:usage="image"/>
+    <tourml:PropertySet>
+      <tourml:Property tourml:name="code">5</tourml:Property>
+    </tourml:PropertySet>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="folleville-chateau-6" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">1. Devant l’entrée du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans des temps anciens (15e siècle ?) où les armes à feu portables étaient rares, l’entrée des châteaux fortifiés consistait en une porte piétonne et une porte cochère (par exemple Picquigny), et de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 - pas très réussie, en béton …&lt;br /&gt;&#13;
+On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</tourml:Description>
+    <tourml:Title xml:lang="en">2. Au-dessus du porche de l’église</tourml:Title>
+    <tourml:Description xml:lang="fr">La niche au-dessus du porche de l’église abritait initialement une statue de Saint Jacques qui a été transférée (vers 1840) en haut du contrefort pour être visible de tous. Saint-Jacques de Compostelle, patron de Folleville, c’est une vieille histoire : Jean III de Folleville, grand prévôt des marchands de Paris, de 1388 à 1401, avait été chargé d’une ambassade auprès du roi Jean de Castille en 1486 et était revenu par Compostelle. Au retour il avait construit cette église par dévotion à ce personnage, qui est représenté en marche ; malgré l’usure du temps on devine encore la coquille sculptée sur son chapeau.</tourml:Description>
+    <tourml:Title xml:lang="en">3. Le fossé</tourml:Title>
+    <tourml:Description xml:lang="fr">A vos pieds un fossé large et profond, permettant de voir venir les assaillants et les garder à distance : 20 m. de large, 5 à 7 m de profondeur. Ce sont des douves sèches : les fossés en eau, c’était dans les vallées comme à Eaucourt près d’Abbeville, ou dans les marais comme à La Fère, dans l’Aisne. Pour pouvoir passer juqu’au pied des murs il fallait au moins 200 fagots empilés et faisant passerelle. Un amoncellement rapide était impossible. Sinon, pour aborder au pied du château, le haut de l’escarpement était dominé par un a-pic de 2 m.</tourml:Description>
+    <tourml:Title xml:lang="en">4. Un plan vertical</tourml:Title>
+    <tourml:Description xml:lang="fr">Vus ainsi de profil, les vestiges de ce château sont marqués par des lignes verticales ; le pouvoir se manifeste par la hauteur des murs (et leur épaisseur). Celui qui domine doit alors surplomber, avec ses archers et arbalétriers du haut du chemin de ronde. Plus tard, à partir surtout du 16e s. déjà, devant la diffusion des bombardes et de l’artillerie on devra garder l’adversaire à distance, et les lignes horizontales vont caractériser l’architecture militaire. Ce sont les fortifications de Vauban, et l’organisation du paysage de Versailles au 17e s.</tourml:Description>
+    <tourml:Title xml:lang="en">5. Le pont</tourml:Title>
+    <tourml:Description xml:lang="fr">Deux piliers du 18e siècle marquaient le passage obligé par un pont de pierre à trois arches qui avait succédé à une passerelle de bois devant le pont-levis. Là encore une porte piétonne accompagnait la grande entrée du château sur sa droite. On entrait alors par ce porche dans la grande aile du château qui faisait face à la basse-cour. Un large bâtiment de deux étages abritait les appartements privés du château, et aussi la chapelle de la famille. De part et d’autre de ce passage, le four à pain à main gauche, et la chapelle à droite encadraient étroitement ce pont-levis sur lequel on ne pouvait s’engager imprudemment. Toute cette partie de l’ancienne demeure seigneuriale a été détruite. Il ne reste que des inventaires d’archives pour reconstituer mentalement ce passé. </tourml:Description>
+    <tourml:Title xml:lang="en">6. La tour de guet</tourml:Title>
+    <tourml:Description xml:lang="fr">Ces pans de murs seraient désolants s’ils n’étaient dominés par la tour, restée fièrement intacte par la volonté du duc de Mailly quand il a fait démanteler ce château en 1777 pour aménager celui de Raineval (aujourd’hui Mailly-Raineval), à 15 km sur la route de Moreuil. Cette élégante tour de guet, d’inspiration florentine, greffée sur l’ancien chemin de ronde, a été rajoutée par Raoul de Lannoy de retour d’Italie où il avait été nommé gouverneur de Gênes par Louis XII. Destinée à la protection éloignée du château par-dessus les grands arbres du parc, elle permettait notamment de surveiller le parcours de l’ancienne voie romaine à l’ouest, voie de circulation très importante. Cette tour contient encore l’escalier de service pour les étages du château : au total 120 marches d’environ 1,30 m de largeur. </tourml:Description>
+    <tourml:AssetRef tourml:id="header_8" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="1" tourml:usage="image"/>
+    <tourml:PropertySet>
+      <tourml:Property tourml:name="code">6</tourml:Property>
+    </tourml:PropertySet>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="folleville-chateau-7" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">1. Devant l’entrée du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans des temps anciens (15e siècle ?) où les armes à feu portables étaient rares, l’entrée des châteaux fortifiés consistait en une porte piétonne et une porte cochère (par exemple Picquigny), et de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 - pas très réussie, en béton …&lt;br /&gt;&#13;
+On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</tourml:Description>
+    <tourml:Title xml:lang="en">2. Au-dessus du porche de l’église</tourml:Title>
+    <tourml:Description xml:lang="fr">La niche au-dessus du porche de l’église abritait initialement une statue de Saint Jacques qui a été transférée (vers 1840) en haut du contrefort pour être visible de tous. Saint-Jacques de Compostelle, patron de Folleville, c’est une vieille histoire : Jean III de Folleville, grand prévôt des marchands de Paris, de 1388 à 1401, avait été chargé d’une ambassade auprès du roi Jean de Castille en 1486 et était revenu par Compostelle. Au retour il avait construit cette église par dévotion à ce personnage, qui est représenté en marche ; malgré l’usure du temps on devine encore la coquille sculptée sur son chapeau.</tourml:Description>
+    <tourml:Title xml:lang="en">3. Le fossé</tourml:Title>
+    <tourml:Description xml:lang="fr">A vos pieds un fossé large et profond, permettant de voir venir les assaillants et les garder à distance : 20 m. de large, 5 à 7 m de profondeur. Ce sont des douves sèches : les fossés en eau, c’était dans les vallées comme à Eaucourt près d’Abbeville, ou dans les marais comme à La Fère, dans l’Aisne. Pour pouvoir passer juqu’au pied des murs il fallait au moins 200 fagots empilés et faisant passerelle. Un amoncellement rapide était impossible. Sinon, pour aborder au pied du château, le haut de l’escarpement était dominé par un a-pic de 2 m.</tourml:Description>
+    <tourml:Title xml:lang="en">4. Un plan vertical</tourml:Title>
+    <tourml:Description xml:lang="fr">Vus ainsi de profil, les vestiges de ce château sont marqués par des lignes verticales ; le pouvoir se manifeste par la hauteur des murs (et leur épaisseur). Celui qui domine doit alors surplomber, avec ses archers et arbalétriers du haut du chemin de ronde. Plus tard, à partir surtout du 16e s. déjà, devant la diffusion des bombardes et de l’artillerie on devra garder l’adversaire à distance, et les lignes horizontales vont caractériser l’architecture militaire. Ce sont les fortifications de Vauban, et l’organisation du paysage de Versailles au 17e s.</tourml:Description>
+    <tourml:Title xml:lang="en">5. Le pont</tourml:Title>
+    <tourml:Description xml:lang="fr">Deux piliers du 18e siècle marquaient le passage obligé par un pont de pierre à trois arches qui avait succédé à une passerelle de bois devant le pont-levis. Là encore une porte piétonne accompagnait la grande entrée du château sur sa droite. On entrait alors par ce porche dans la grande aile du château qui faisait face à la basse-cour. Un large bâtiment de deux étages abritait les appartements privés du château, et aussi la chapelle de la famille. De part et d’autre de ce passage, le four à pain à main gauche, et la chapelle à droite encadraient étroitement ce pont-levis sur lequel on ne pouvait s’engager imprudemment. Toute cette partie de l’ancienne demeure seigneuriale a été détruite. Il ne reste que des inventaires d’archives pour reconstituer mentalement ce passé. </tourml:Description>
+    <tourml:Title xml:lang="en">6. La tour de guet</tourml:Title>
+    <tourml:Description xml:lang="fr">Ces pans de murs seraient désolants s’ils n’étaient dominés par la tour, restée fièrement intacte par la volonté du duc de Mailly quand il a fait démanteler ce château en 1777 pour aménager celui de Raineval (aujourd’hui Mailly-Raineval), à 15 km sur la route de Moreuil. Cette élégante tour de guet, d’inspiration florentine, greffée sur l’ancien chemin de ronde, a été rajoutée par Raoul de Lannoy de retour d’Italie où il avait été nommé gouverneur de Gênes par Louis XII. Destinée à la protection éloignée du château par-dessus les grands arbres du parc, elle permettait notamment de surveiller le parcours de l’ancienne voie romaine à l’ouest, voie de circulation très importante. Cette tour contient encore l’escalier de service pour les étages du château : au total 120 marches d’environ 1,30 m de largeur. </tourml:Description>
+    <tourml:Title xml:lang="en">7. Souvenirs d'un clocheton</tourml:Title>
+    <tourml:Description xml:lang="fr">Tout en haut de l’escalier reste la marque dans le mur des pièces de bois qui supportaient une guérite, surmontée d’un clocheton à six pans, laquelle permettait de faire le tour de la plateforme, comme en haut de la tour nord de la cathédrale d’Amiens (de même à St-Wulfran d’Abbeville) ; elle permettait aussi par temps froid ou par grand vent de faire le guet à l’abri, par une porte ouvrant de l’intérieur, placée astucieusement à l’ouest,.</tourml:Description>
+    <tourml:AssetRef tourml:id="header_9" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="1" tourml:usage="image"/>
+    <tourml:PropertySet>
+      <tourml:Property tourml:name="code">7</tourml:Property>
+    </tourml:PropertySet>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="folleville-chateau-8" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">1. Devant l’entrée du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans des temps anciens (15e siècle ?) où les armes à feu portables étaient rares, l’entrée des châteaux fortifiés consistait en une porte piétonne et une porte cochère (par exemple Picquigny), et de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 - pas très réussie, en béton …&lt;br /&gt;&#13;
+On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</tourml:Description>
+    <tourml:Title xml:lang="en">2. Au-dessus du porche de l’église</tourml:Title>
+    <tourml:Description xml:lang="fr">La niche au-dessus du porche de l’église abritait initialement une statue de Saint Jacques qui a été transférée (vers 1840) en haut du contrefort pour être visible de tous. Saint-Jacques de Compostelle, patron de Folleville, c’est une vieille histoire : Jean III de Folleville, grand prévôt des marchands de Paris, de 1388 à 1401, avait été chargé d’une ambassade auprès du roi Jean de Castille en 1486 et était revenu par Compostelle. Au retour il avait construit cette église par dévotion à ce personnage, qui est représenté en marche ; malgré l’usure du temps on devine encore la coquille sculptée sur son chapeau.</tourml:Description>
+    <tourml:Title xml:lang="en">3. Le fossé</tourml:Title>
+    <tourml:Description xml:lang="fr">A vos pieds un fossé large et profond, permettant de voir venir les assaillants et les garder à distance : 20 m. de large, 5 à 7 m de profondeur. Ce sont des douves sèches : les fossés en eau, c’était dans les vallées comme à Eaucourt près d’Abbeville, ou dans les marais comme à La Fère, dans l’Aisne. Pour pouvoir passer juqu’au pied des murs il fallait au moins 200 fagots empilés et faisant passerelle. Un amoncellement rapide était impossible. Sinon, pour aborder au pied du château, le haut de l’escarpement était dominé par un a-pic de 2 m.</tourml:Description>
+    <tourml:Title xml:lang="en">4. Un plan vertical</tourml:Title>
+    <tourml:Description xml:lang="fr">Vus ainsi de profil, les vestiges de ce château sont marqués par des lignes verticales ; le pouvoir se manifeste par la hauteur des murs (et leur épaisseur). Celui qui domine doit alors surplomber, avec ses archers et arbalétriers du haut du chemin de ronde. Plus tard, à partir surtout du 16e s. déjà, devant la diffusion des bombardes et de l’artillerie on devra garder l’adversaire à distance, et les lignes horizontales vont caractériser l’architecture militaire. Ce sont les fortifications de Vauban, et l’organisation du paysage de Versailles au 17e s.</tourml:Description>
+    <tourml:Title xml:lang="en">5. Le pont</tourml:Title>
+    <tourml:Description xml:lang="fr">Deux piliers du 18e siècle marquaient le passage obligé par un pont de pierre à trois arches qui avait succédé à une passerelle de bois devant le pont-levis. Là encore une porte piétonne accompagnait la grande entrée du château sur sa droite. On entrait alors par ce porche dans la grande aile du château qui faisait face à la basse-cour. Un large bâtiment de deux étages abritait les appartements privés du château, et aussi la chapelle de la famille. De part et d’autre de ce passage, le four à pain à main gauche, et la chapelle à droite encadraient étroitement ce pont-levis sur lequel on ne pouvait s’engager imprudemment. Toute cette partie de l’ancienne demeure seigneuriale a été détruite. Il ne reste que des inventaires d’archives pour reconstituer mentalement ce passé. </tourml:Description>
+    <tourml:Title xml:lang="en">6. La tour de guet</tourml:Title>
+    <tourml:Description xml:lang="fr">Ces pans de murs seraient désolants s’ils n’étaient dominés par la tour, restée fièrement intacte par la volonté du duc de Mailly quand il a fait démanteler ce château en 1777 pour aménager celui de Raineval (aujourd’hui Mailly-Raineval), à 15 km sur la route de Moreuil. Cette élégante tour de guet, d’inspiration florentine, greffée sur l’ancien chemin de ronde, a été rajoutée par Raoul de Lannoy de retour d’Italie où il avait été nommé gouverneur de Gênes par Louis XII. Destinée à la protection éloignée du château par-dessus les grands arbres du parc, elle permettait notamment de surveiller le parcours de l’ancienne voie romaine à l’ouest, voie de circulation très importante. Cette tour contient encore l’escalier de service pour les étages du château : au total 120 marches d’environ 1,30 m de largeur. </tourml:Description>
+    <tourml:Title xml:lang="en">7. Souvenirs d'un clocheton</tourml:Title>
+    <tourml:Description xml:lang="fr">Tout en haut de l’escalier reste la marque dans le mur des pièces de bois qui supportaient une guérite, surmontée d’un clocheton à six pans, laquelle permettait de faire le tour de la plateforme, comme en haut de la tour nord de la cathédrale d’Amiens (de même à St-Wulfran d’Abbeville) ; elle permettait aussi par temps froid ou par grand vent de faire le guet à l’abri, par une porte ouvrant de l’intérieur, placée astucieusement à l’ouest,.</tourml:Description>
+    <tourml:Title xml:lang="en">8. Le pavillon des garde</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans l’angle du bâtiment des gardes, tout près, les stries sculptées dans la pierre reprennent les traits de ceux de la tour, et sont donc aussi du 16e s. Devant la façade de ce petit bâtiment était le puits du château, pour l’approvisionnement en eau de la maisonnée, et aussi pour les communs (écuries et étables). Sur le pignon de ce pavillon, le linteau correspond à la cheminée intérieure. La date de 1708 qui y est gravée est la marque du marquis d’Esclainvillers, alors propriétaire. Une scène sculptée inachevée montre un cerf pris dans une vigne entourée de claies (souvenir d’un événement local ?).</tourml:Description>
+    <tourml:AssetRef tourml:id="header_10" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="1" tourml:usage="image"/>
+    <tourml:PropertySet>
+      <tourml:Property tourml:name="code">8</tourml:Property>
+    </tourml:PropertySet>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="folleville-chateau-9" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">1. Devant l’entrée du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans des temps anciens (15e siècle ?) où les armes à feu portables étaient rares, l’entrée des châteaux fortifiés consistait en une porte piétonne et une porte cochère (par exemple Picquigny), et de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 - pas très réussie, en béton …&lt;br /&gt;&#13;
+On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</tourml:Description>
+    <tourml:Title xml:lang="en">2. Au-dessus du porche de l’église</tourml:Title>
+    <tourml:Description xml:lang="fr">La niche au-dessus du porche de l’église abritait initialement une statue de Saint Jacques qui a été transférée (vers 1840) en haut du contrefort pour être visible de tous. Saint-Jacques de Compostelle, patron de Folleville, c’est une vieille histoire : Jean III de Folleville, grand prévôt des marchands de Paris, de 1388 à 1401, avait été chargé d’une ambassade auprès du roi Jean de Castille en 1486 et était revenu par Compostelle. Au retour il avait construit cette église par dévotion à ce personnage, qui est représenté en marche ; malgré l’usure du temps on devine encore la coquille sculptée sur son chapeau.</tourml:Description>
+    <tourml:Title xml:lang="en">3. Le fossé</tourml:Title>
+    <tourml:Description xml:lang="fr">A vos pieds un fossé large et profond, permettant de voir venir les assaillants et les garder à distance : 20 m. de large, 5 à 7 m de profondeur. Ce sont des douves sèches : les fossés en eau, c’était dans les vallées comme à Eaucourt près d’Abbeville, ou dans les marais comme à La Fère, dans l’Aisne. Pour pouvoir passer juqu’au pied des murs il fallait au moins 200 fagots empilés et faisant passerelle. Un amoncellement rapide était impossible. Sinon, pour aborder au pied du château, le haut de l’escarpement était dominé par un a-pic de 2 m.</tourml:Description>
+    <tourml:Title xml:lang="en">4. Un plan vertical</tourml:Title>
+    <tourml:Description xml:lang="fr">Vus ainsi de profil, les vestiges de ce château sont marqués par des lignes verticales ; le pouvoir se manifeste par la hauteur des murs (et leur épaisseur). Celui qui domine doit alors surplomber, avec ses archers et arbalétriers du haut du chemin de ronde. Plus tard, à partir surtout du 16e s. déjà, devant la diffusion des bombardes et de l’artillerie on devra garder l’adversaire à distance, et les lignes horizontales vont caractériser l’architecture militaire. Ce sont les fortifications de Vauban, et l’organisation du paysage de Versailles au 17e s.</tourml:Description>
+    <tourml:Title xml:lang="en">5. Le pont</tourml:Title>
+    <tourml:Description xml:lang="fr">Deux piliers du 18e siècle marquaient le passage obligé par un pont de pierre à trois arches qui avait succédé à une passerelle de bois devant le pont-levis. Là encore une porte piétonne accompagnait la grande entrée du château sur sa droite. On entrait alors par ce porche dans la grande aile du château qui faisait face à la basse-cour. Un large bâtiment de deux étages abritait les appartements privés du château, et aussi la chapelle de la famille. De part et d’autre de ce passage, le four à pain à main gauche, et la chapelle à droite encadraient étroitement ce pont-levis sur lequel on ne pouvait s’engager imprudemment. Toute cette partie de l’ancienne demeure seigneuriale a été détruite. Il ne reste que des inventaires d’archives pour reconstituer mentalement ce passé. </tourml:Description>
+    <tourml:Title xml:lang="en">6. La tour de guet</tourml:Title>
+    <tourml:Description xml:lang="fr">Ces pans de murs seraient désolants s’ils n’étaient dominés par la tour, restée fièrement intacte par la volonté du duc de Mailly quand il a fait démanteler ce château en 1777 pour aménager celui de Raineval (aujourd’hui Mailly-Raineval), à 15 km sur la route de Moreuil. Cette élégante tour de guet, d’inspiration florentine, greffée sur l’ancien chemin de ronde, a été rajoutée par Raoul de Lannoy de retour d’Italie où il avait été nommé gouverneur de Gênes par Louis XII. Destinée à la protection éloignée du château par-dessus les grands arbres du parc, elle permettait notamment de surveiller le parcours de l’ancienne voie romaine à l’ouest, voie de circulation très importante. Cette tour contient encore l’escalier de service pour les étages du château : au total 120 marches d’environ 1,30 m de largeur. </tourml:Description>
+    <tourml:Title xml:lang="en">7. Souvenirs d'un clocheton</tourml:Title>
+    <tourml:Description xml:lang="fr">Tout en haut de l’escalier reste la marque dans le mur des pièces de bois qui supportaient une guérite, surmontée d’un clocheton à six pans, laquelle permettait de faire le tour de la plateforme, comme en haut de la tour nord de la cathédrale d’Amiens (de même à St-Wulfran d’Abbeville) ; elle permettait aussi par temps froid ou par grand vent de faire le guet à l’abri, par une porte ouvrant de l’intérieur, placée astucieusement à l’ouest,.</tourml:Description>
+    <tourml:Title xml:lang="en">8. Le pavillon des garde</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans l’angle du bâtiment des gardes, tout près, les stries sculptées dans la pierre reprennent les traits de ceux de la tour, et sont donc aussi du 16e s. Devant la façade de ce petit bâtiment était le puits du château, pour l’approvisionnement en eau de la maisonnée, et aussi pour les communs (écuries et étables). Sur le pignon de ce pavillon, le linteau correspond à la cheminée intérieure. La date de 1708 qui y est gravée est la marque du marquis d’Esclainvillers, alors propriétaire. Une scène sculptée inachevée montre un cerf pris dans une vigne entourée de claies (souvenir d’un événement local ?).</tourml:Description>
+    <tourml:Title xml:lang="en">9. Le parc</tourml:Title>
+    <tourml:Description xml:lang="fr">Espace aménagé pour la fête médiévale annuelle avec ses chaumières et ses fours à pain, il est dominé par une grange construite par les bénévoles de l’association, sur le modèle des granges du 19e siècle destinées au fourrage pour le bétail. Tout au fond de ce parc, une rampe d’accès à un belvédère a été aménagée en 1995, pour permettre une vue sur la vallée qui compense l’impossibilité de monter à la tour. On y observe une partie du village de La Faloise à l’ouest, et plus au nord, un peu aussi celui de Chaussoy, dont le nom rappelle qu’il est sur le tracé de l’ancienne voie romaine descendant d’Amiens vers le sud (on la devine sur la colline, en haut de La Faloise, qui descend vers le village de Paillart). Les convois, marchands, militaires ou diplomatiques ont cheminé là pendant vingt siècles. On comprend ainsi l’emplacement stratégique de ce château de Folleville. </tourml:Description>
+    <tourml:AssetRef tourml:id="header_11" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="1" tourml:usage="image"/>
+    <tourml:PropertySet>
+      <tourml:Property tourml:name="code">9</tourml:Property>
+    </tourml:PropertySet>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="folleville-chateau-10" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">1. Devant l’entrée du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans des temps anciens (15e siècle ?) où les armes à feu portables étaient rares, l’entrée des châteaux fortifiés consistait en une porte piétonne et une porte cochère (par exemple Picquigny), et de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 - pas très réussie, en béton …&lt;br /&gt;&#13;
+On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</tourml:Description>
+    <tourml:Title xml:lang="en">2. Au-dessus du porche de l’église</tourml:Title>
+    <tourml:Description xml:lang="fr">La niche au-dessus du porche de l’église abritait initialement une statue de Saint Jacques qui a été transférée (vers 1840) en haut du contrefort pour être visible de tous. Saint-Jacques de Compostelle, patron de Folleville, c’est une vieille histoire : Jean III de Folleville, grand prévôt des marchands de Paris, de 1388 à 1401, avait été chargé d’une ambassade auprès du roi Jean de Castille en 1486 et était revenu par Compostelle. Au retour il avait construit cette église par dévotion à ce personnage, qui est représenté en marche ; malgré l’usure du temps on devine encore la coquille sculptée sur son chapeau.</tourml:Description>
+    <tourml:Title xml:lang="en">3. Le fossé</tourml:Title>
+    <tourml:Description xml:lang="fr">A vos pieds un fossé large et profond, permettant de voir venir les assaillants et les garder à distance : 20 m. de large, 5 à 7 m de profondeur. Ce sont des douves sèches : les fossés en eau, c’était dans les vallées comme à Eaucourt près d’Abbeville, ou dans les marais comme à La Fère, dans l’Aisne. Pour pouvoir passer juqu’au pied des murs il fallait au moins 200 fagots empilés et faisant passerelle. Un amoncellement rapide était impossible. Sinon, pour aborder au pied du château, le haut de l’escarpement était dominé par un a-pic de 2 m.</tourml:Description>
+    <tourml:Title xml:lang="en">4. Un plan vertical</tourml:Title>
+    <tourml:Description xml:lang="fr">Vus ainsi de profil, les vestiges de ce château sont marqués par des lignes verticales ; le pouvoir se manifeste par la hauteur des murs (et leur épaisseur). Celui qui domine doit alors surplomber, avec ses archers et arbalétriers du haut du chemin de ronde. Plus tard, à partir surtout du 16e s. déjà, devant la diffusion des bombardes et de l’artillerie on devra garder l’adversaire à distance, et les lignes horizontales vont caractériser l’architecture militaire. Ce sont les fortifications de Vauban, et l’organisation du paysage de Versailles au 17e s.</tourml:Description>
+    <tourml:Title xml:lang="en">5. Le pont</tourml:Title>
+    <tourml:Description xml:lang="fr">Deux piliers du 18e siècle marquaient le passage obligé par un pont de pierre à trois arches qui avait succédé à une passerelle de bois devant le pont-levis. Là encore une porte piétonne accompagnait la grande entrée du château sur sa droite. On entrait alors par ce porche dans la grande aile du château qui faisait face à la basse-cour. Un large bâtiment de deux étages abritait les appartements privés du château, et aussi la chapelle de la famille. De part et d’autre de ce passage, le four à pain à main gauche, et la chapelle à droite encadraient étroitement ce pont-levis sur lequel on ne pouvait s’engager imprudemment. Toute cette partie de l’ancienne demeure seigneuriale a été détruite. Il ne reste que des inventaires d’archives pour reconstituer mentalement ce passé. </tourml:Description>
+    <tourml:Title xml:lang="en">6. La tour de guet</tourml:Title>
+    <tourml:Description xml:lang="fr">Ces pans de murs seraient désolants s’ils n’étaient dominés par la tour, restée fièrement intacte par la volonté du duc de Mailly quand il a fait démanteler ce château en 1777 pour aménager celui de Raineval (aujourd’hui Mailly-Raineval), à 15 km sur la route de Moreuil. Cette élégante tour de guet, d’inspiration florentine, greffée sur l’ancien chemin de ronde, a été rajoutée par Raoul de Lannoy de retour d’Italie où il avait été nommé gouverneur de Gênes par Louis XII. Destinée à la protection éloignée du château par-dessus les grands arbres du parc, elle permettait notamment de surveiller le parcours de l’ancienne voie romaine à l’ouest, voie de circulation très importante. Cette tour contient encore l’escalier de service pour les étages du château : au total 120 marches d’environ 1,30 m de largeur. </tourml:Description>
+    <tourml:Title xml:lang="en">7. Souvenirs d'un clocheton</tourml:Title>
+    <tourml:Description xml:lang="fr">Tout en haut de l’escalier reste la marque dans le mur des pièces de bois qui supportaient une guérite, surmontée d’un clocheton à six pans, laquelle permettait de faire le tour de la plateforme, comme en haut de la tour nord de la cathédrale d’Amiens (de même à St-Wulfran d’Abbeville) ; elle permettait aussi par temps froid ou par grand vent de faire le guet à l’abri, par une porte ouvrant de l’intérieur, placée astucieusement à l’ouest,.</tourml:Description>
+    <tourml:Title xml:lang="en">8. Le pavillon des garde</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans l’angle du bâtiment des gardes, tout près, les stries sculptées dans la pierre reprennent les traits de ceux de la tour, et sont donc aussi du 16e s. Devant la façade de ce petit bâtiment était le puits du château, pour l’approvisionnement en eau de la maisonnée, et aussi pour les communs (écuries et étables). Sur le pignon de ce pavillon, le linteau correspond à la cheminée intérieure. La date de 1708 qui y est gravée est la marque du marquis d’Esclainvillers, alors propriétaire. Une scène sculptée inachevée montre un cerf pris dans une vigne entourée de claies (souvenir d’un événement local ?).</tourml:Description>
+    <tourml:Title xml:lang="en">9. Le parc</tourml:Title>
+    <tourml:Description xml:lang="fr">Espace aménagé pour la fête médiévale annuelle avec ses chaumières et ses fours à pain, il est dominé par une grange construite par les bénévoles de l’association, sur le modèle des granges du 19e siècle destinées au fourrage pour le bétail. Tout au fond de ce parc, une rampe d’accès à un belvédère a été aménagée en 1995, pour permettre une vue sur la vallée qui compense l’impossibilité de monter à la tour. On y observe une partie du village de La Faloise à l’ouest, et plus au nord, un peu aussi celui de Chaussoy, dont le nom rappelle qu’il est sur le tracé de l’ancienne voie romaine descendant d’Amiens vers le sud (on la devine sur la colline, en haut de La Faloise, qui descend vers le village de Paillart). Les convois, marchands, militaires ou diplomatiques ont cheminé là pendant vingt siècles. On comprend ainsi l’emplacement stratégique de ce château de Folleville. </tourml:Description>
+    <tourml:Title xml:lang="en">10. Les murs du château, vus du côté ouest</tourml:Title>
+    <tourml:Description xml:lang="fr">Mis à part la tour nord-ouest, fragilisée par une large ouverture destinée à faire entrer chaleur et lumière (au 18e s. ?) comme à Rambures, ce côté paraît sévère, sans ouvertures, avec un pignon de 2 m. d’épaisseur à la base. Comme pour les maisons paysannes, ce pignon supporte les cheminées. Il date sans doute de la fin du 14e siècle, et de Jean de Folleville. Au rez-de-chaussée de cette tour était la chambre du sommelier (1571), qu’un conduit auditif reliait à la cave à vin creusé 6 m en- dessous. Une sorte de soupirail au pied de la tour à l’extérieur permettait de descendre les seaux du vin nouveau qu’on avait tiré du pressoir aux vendanges. En bas de la tour sud-ouest (à gauche) était la chambre du curé et chapelain du château. C’est là qu’on situe aussi la chambre de St Vincent de Paul dans l’hiver 1617 et en septembre – octobre 1620. Mais à la jonction de cette tour, fragilisée par les démolitions de 1777, là où était le conduit de cheminée, un pan de mur s’est effondré au 19e s. Il permet d’observer un passage étroit qui conduisait aux latrines, aménagées là avec leurs conduits de descente, dans l’une et l’autre tour. Une petite ouverture avait été pratiquée au pied de ces deux tours, pour qu’un ouvrier du château emporte de temps en temps avec sa brouette les engrais destinés au jardin. Ce type d’aménagement des latrines dans les châteaux du Haut Moyen-Age avait été antérieurement constitué par une bretèche (construction en encorbellement à l’avant d’une muraille). Du Haut-Koenigsbourg en Alsace à Pierrefonds dans l’Oise, tous les châteaux avaient été construits ainsi. Or en 1204 les soldats de Philippe-Auguste avaient pris le Château-Gaillard aux Andelys en enfonçant le mur pour passer là, et tous les architectes militaires ont développé ensuite la technique consistant à dissimuler (et placer à l’abri des bombardes) les parties faibles des murailles incluant des conduits de cheminée ou de latrines. </tourml:Description>
+    <tourml:AssetRef tourml:id="header_12" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="1" tourml:usage="image"/>
+    <tourml:PropertySet>
+      <tourml:Property tourml:name="code">10</tourml:Property>
+    </tourml:PropertySet>
+  </tourml:Stop>
+  <tourml:Stop tourml:id="folleville-chateau-11" tourml:view="StopGroup">
+    <tourml:Title xml:lang="en">12. Moïse</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">13. Test GM</tourml:Title>
+    <tourml:Description xml:lang="fr"/>
+    <tourml:Title xml:lang="en">1. Devant l’entrée du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans des temps anciens (15e siècle ?) où les armes à feu portables étaient rares, l’entrée des châteaux fortifiés consistait en une porte piétonne et une porte cochère (par exemple Picquigny), et de même pour les citadelles en ville : Boulogne et Montreuil. Ici l’arche de la porte cochère a été reconstituée en 1936 - pas très réussie, en béton …&lt;br /&gt;&#13;
+On l’a surmontée alors de créneaux fantaisistes, mais elle fut initialement surmontée d’un hourd (construction de bois en encorbellement, pour abriter les défenseurs). La porte piétonne par contre, a gardé ses vieilles pierres calcaires usées par les intempéries. Dans l’angle joignant l’église, un escalier à vis est visible, qui permettait l’accès à ce hourd ; quant au porche et au pignon austère de l’église, il marque qu’on est alors dans l’architecture médiévale : la Renaissance n’est pas encore arrivée, l’église fait simplement partie des défenses du château.</tourml:Description>
+    <tourml:Title xml:lang="en">2. Au-dessus du porche de l’église</tourml:Title>
+    <tourml:Description xml:lang="fr">La niche au-dessus du porche de l’église abritait initialement une statue de Saint Jacques qui a été transférée (vers 1840) en haut du contrefort pour être visible de tous. Saint-Jacques de Compostelle, patron de Folleville, c’est une vieille histoire : Jean III de Folleville, grand prévôt des marchands de Paris, de 1388 à 1401, avait été chargé d’une ambassade auprès du roi Jean de Castille en 1486 et était revenu par Compostelle. Au retour il avait construit cette église par dévotion à ce personnage, qui est représenté en marche ; malgré l’usure du temps on devine encore la coquille sculptée sur son chapeau.</tourml:Description>
+    <tourml:Title xml:lang="en">3. Le fossé</tourml:Title>
+    <tourml:Description xml:lang="fr">A vos pieds un fossé large et profond, permettant de voir venir les assaillants et les garder à distance : 20 m. de large, 5 à 7 m de profondeur. Ce sont des douves sèches : les fossés en eau, c’était dans les vallées comme à Eaucourt près d’Abbeville, ou dans les marais comme à La Fère, dans l’Aisne. Pour pouvoir passer juqu’au pied des murs il fallait au moins 200 fagots empilés et faisant passerelle. Un amoncellement rapide était impossible. Sinon, pour aborder au pied du château, le haut de l’escarpement était dominé par un a-pic de 2 m.</tourml:Description>
+    <tourml:Title xml:lang="en">4. Un plan vertical</tourml:Title>
+    <tourml:Description xml:lang="fr">Vus ainsi de profil, les vestiges de ce château sont marqués par des lignes verticales ; le pouvoir se manifeste par la hauteur des murs (et leur épaisseur). Celui qui domine doit alors surplomber, avec ses archers et arbalétriers du haut du chemin de ronde. Plus tard, à partir surtout du 16e s. déjà, devant la diffusion des bombardes et de l’artillerie on devra garder l’adversaire à distance, et les lignes horizontales vont caractériser l’architecture militaire. Ce sont les fortifications de Vauban, et l’organisation du paysage de Versailles au 17e s.</tourml:Description>
+    <tourml:Title xml:lang="en">5. Le pont</tourml:Title>
+    <tourml:Description xml:lang="fr">Deux piliers du 18e siècle marquaient le passage obligé par un pont de pierre à trois arches qui avait succédé à une passerelle de bois devant le pont-levis. Là encore une porte piétonne accompagnait la grande entrée du château sur sa droite. On entrait alors par ce porche dans la grande aile du château qui faisait face à la basse-cour. Un large bâtiment de deux étages abritait les appartements privés du château, et aussi la chapelle de la famille. De part et d’autre de ce passage, le four à pain à main gauche, et la chapelle à droite encadraient étroitement ce pont-levis sur lequel on ne pouvait s’engager imprudemment. Toute cette partie de l’ancienne demeure seigneuriale a été détruite. Il ne reste que des inventaires d’archives pour reconstituer mentalement ce passé. </tourml:Description>
+    <tourml:Title xml:lang="en">6. La tour de guet</tourml:Title>
+    <tourml:Description xml:lang="fr">Ces pans de murs seraient désolants s’ils n’étaient dominés par la tour, restée fièrement intacte par la volonté du duc de Mailly quand il a fait démanteler ce château en 1777 pour aménager celui de Raineval (aujourd’hui Mailly-Raineval), à 15 km sur la route de Moreuil. Cette élégante tour de guet, d’inspiration florentine, greffée sur l’ancien chemin de ronde, a été rajoutée par Raoul de Lannoy de retour d’Italie où il avait été nommé gouverneur de Gênes par Louis XII. Destinée à la protection éloignée du château par-dessus les grands arbres du parc, elle permettait notamment de surveiller le parcours de l’ancienne voie romaine à l’ouest, voie de circulation très importante. Cette tour contient encore l’escalier de service pour les étages du château : au total 120 marches d’environ 1,30 m de largeur. </tourml:Description>
+    <tourml:Title xml:lang="en">7. Souvenirs d'un clocheton</tourml:Title>
+    <tourml:Description xml:lang="fr">Tout en haut de l’escalier reste la marque dans le mur des pièces de bois qui supportaient une guérite, surmontée d’un clocheton à six pans, laquelle permettait de faire le tour de la plateforme, comme en haut de la tour nord de la cathédrale d’Amiens (de même à St-Wulfran d’Abbeville) ; elle permettait aussi par temps froid ou par grand vent de faire le guet à l’abri, par une porte ouvrant de l’intérieur, placée astucieusement à l’ouest,.</tourml:Description>
+    <tourml:Title xml:lang="en">8. Le pavillon des garde</tourml:Title>
+    <tourml:Description xml:lang="fr">Dans l’angle du bâtiment des gardes, tout près, les stries sculptées dans la pierre reprennent les traits de ceux de la tour, et sont donc aussi du 16e s. Devant la façade de ce petit bâtiment était le puits du château, pour l’approvisionnement en eau de la maisonnée, et aussi pour les communs (écuries et étables). Sur le pignon de ce pavillon, le linteau correspond à la cheminée intérieure. La date de 1708 qui y est gravée est la marque du marquis d’Esclainvillers, alors propriétaire. Une scène sculptée inachevée montre un cerf pris dans une vigne entourée de claies (souvenir d’un événement local ?).</tourml:Description>
+    <tourml:Title xml:lang="en">9. Le parc</tourml:Title>
+    <tourml:Description xml:lang="fr">Espace aménagé pour la fête médiévale annuelle avec ses chaumières et ses fours à pain, il est dominé par une grange construite par les bénévoles de l’association, sur le modèle des granges du 19e siècle destinées au fourrage pour le bétail. Tout au fond de ce parc, une rampe d’accès à un belvédère a été aménagée en 1995, pour permettre une vue sur la vallée qui compense l’impossibilité de monter à la tour. On y observe une partie du village de La Faloise à l’ouest, et plus au nord, un peu aussi celui de Chaussoy, dont le nom rappelle qu’il est sur le tracé de l’ancienne voie romaine descendant d’Amiens vers le sud (on la devine sur la colline, en haut de La Faloise, qui descend vers le village de Paillart). Les convois, marchands, militaires ou diplomatiques ont cheminé là pendant vingt siècles. On comprend ainsi l’emplacement stratégique de ce château de Folleville. </tourml:Description>
+    <tourml:Title xml:lang="en">10. Les murs du château, vus du côté ouest</tourml:Title>
+    <tourml:Description xml:lang="fr">Mis à part la tour nord-ouest, fragilisée par une large ouverture destinée à faire entrer chaleur et lumière (au 18e s. ?) comme à Rambures, ce côté paraît sévère, sans ouvertures, avec un pignon de 2 m. d’épaisseur à la base. Comme pour les maisons paysannes, ce pignon supporte les cheminées. Il date sans doute de la fin du 14e siècle, et de Jean de Folleville. Au rez-de-chaussée de cette tour était la chambre du sommelier (1571), qu’un conduit auditif reliait à la cave à vin creusé 6 m en- dessous. Une sorte de soupirail au pied de la tour à l’extérieur permettait de descendre les seaux du vin nouveau qu’on avait tiré du pressoir aux vendanges. En bas de la tour sud-ouest (à gauche) était la chambre du curé et chapelain du château. C’est là qu’on situe aussi la chambre de St Vincent de Paul dans l’hiver 1617 et en septembre – octobre 1620. Mais à la jonction de cette tour, fragilisée par les démolitions de 1777, là où était le conduit de cheminée, un pan de mur s’est effondré au 19e s. Il permet d’observer un passage étroit qui conduisait aux latrines, aménagées là avec leurs conduits de descente, dans l’une et l’autre tour. Une petite ouverture avait été pratiquée au pied de ces deux tours, pour qu’un ouvrier du château emporte de temps en temps avec sa brouette les engrais destinés au jardin. Ce type d’aménagement des latrines dans les châteaux du Haut Moyen-Age avait été antérieurement constitué par une bretèche (construction en encorbellement à l’avant d’une muraille). Du Haut-Koenigsbourg en Alsace à Pierrefonds dans l’Oise, tous les châteaux avaient été construits ainsi. Or en 1204 les soldats de Philippe-Auguste avaient pris le Château-Gaillard aux Andelys en enfonçant le mur pour passer là, et tous les architectes militaires ont développé ensuite la technique consistant à dissimuler (et placer à l’abri des bombardes) les parties faibles des murailles incluant des conduits de cheminée ou de latrines. </tourml:Description>
+    <tourml:Title xml:lang="en">11. La façade sud du château</tourml:Title>
+    <tourml:Description xml:lang="fr">Cette façade donnait sur un espace dégagé, sorte de glacis ou terre-plein de défense. Face au midi la muraille est percée de trois travées d’ouvertures superposées, dont celle de droite a été démolie comme la tour à côté. Ces larges portes et fenêtres (1,60 m) sont du 16e s. Deux petites ouvertures sont restées au 2d étage, et une autre a été murée au 1er : on devine ainsi l’architecture initiale de l’édifice, avant les remaniements de Raoul de Lannoy, de retour d’Italie. Dans la tour de gauche deux fentes verticales : ce sont des archères, vieux système apparu au 11e s., avant les arbalètes et donc les « meurtrières ». Dans le fossé en-dessous du château, une ouverture marque la sortie de l’égout, qui reste à dégager, et à fermer par une grille.</tourml:Description>
+    <tourml:AssetRef tourml:id="header_13" tourml:usage="header_image"/>
+    <tourml:AssetRef tourml:id="1" tourml:usage="image"/>
+    <tourml:PropertySet>
+      <tourml:Property tourml:name="code">11</tourml:Property>
+    </tourml:PropertySet>
+  </tourml:Stop>
+  <tourml:Asset tourml:id="tour_image_header">
+    <tourml:Source id="tour_image_header" type="image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/80767_ca_attribute_values_value_blob_26_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_15">
+    <tourml:Source id="header_15" type="header_image" format="image/jpeg" uri="" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="6">
+    <tourml:Source id="6" type="image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/6899_ca_object_representations_media_7_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">1000</tourml:Property>
+        <tourml:Property tourml:name="height">707</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_14">
+    <tourml:Source id="header_14" type="header_image" format="image/jpeg" uri="" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_2">
+    <tourml:Source id="header_2" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/89336_ca_attribute_values_value_blob_34_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="1">
+    <tourml:Source id="1" type="image" format="image/jpeg" uri="/support/icons/audioIcon700.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">700</tourml:Property>
+        <tourml:Property tourml:name="height">350</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_3">
+    <tourml:Source id="header_3" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/82415_ca_attribute_values_value_blob_36_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="1">
+    <tourml:Source id="1" type="image" format="image/jpeg" uri="/support/icons/audioIcon700.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">700</tourml:Property>
+        <tourml:Property tourml:name="height">350</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_5">
+    <tourml:Source id="header_5" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/11051_ca_attribute_values_value_blob_38_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="1">
+    <tourml:Source id="1" type="image" format="image/jpeg" uri="/support/icons/audioIcon700.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">700</tourml:Property>
+        <tourml:Property tourml:name="height">350</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_6">
+    <tourml:Source id="header_6" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/83921_ca_attribute_values_value_blob_40_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="1">
+    <tourml:Source id="1" type="image" format="image/jpeg" uri="/support/icons/audioIcon700.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">700</tourml:Property>
+        <tourml:Property tourml:name="height">350</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_7">
+    <tourml:Source id="header_7" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/22610_ca_attribute_values_value_blob_42_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="1">
+    <tourml:Source id="1" type="image" format="image/jpeg" uri="/support/icons/audioIcon700.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">700</tourml:Property>
+        <tourml:Property tourml:name="height">350</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_8">
+    <tourml:Source id="header_8" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/60787_ca_attribute_values_value_blob_44_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="1">
+    <tourml:Source id="1" type="image" format="image/jpeg" uri="/support/icons/audioIcon700.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">700</tourml:Property>
+        <tourml:Property tourml:name="height">350</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_9">
+    <tourml:Source id="header_9" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/15732_ca_attribute_values_value_blob_46_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="1">
+    <tourml:Source id="1" type="image" format="image/jpeg" uri="/support/icons/audioIcon700.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">700</tourml:Property>
+        <tourml:Property tourml:name="height">350</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_10">
+    <tourml:Source id="header_10" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/90118_ca_attribute_values_value_blob_48_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="1">
+    <tourml:Source id="1" type="image" format="image/jpeg" uri="/support/icons/audioIcon700.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">700</tourml:Property>
+        <tourml:Property tourml:name="height">350</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_11">
+    <tourml:Source id="header_11" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/26451_ca_attribute_values_value_blob_50_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="1">
+    <tourml:Source id="1" type="image" format="image/jpeg" uri="/support/icons/audioIcon700.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">700</tourml:Property>
+        <tourml:Property tourml:name="height">350</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_12">
+    <tourml:Source id="header_12" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/57504_ca_attribute_values_value_blob_62_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="1">
+    <tourml:Source id="1" type="image" format="image/jpeg" uri="/support/icons/audioIcon700.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">700</tourml:Property>
+        <tourml:Property tourml:name="height">350</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="header_13">
+    <tourml:Source id="header_13" type="header_image" format="image/jpeg" uri="http://collective.local/media/collectiveaccess/images/0/1319_ca_attribute_values_value_blob_64_page.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">320</tourml:Property>
+        <tourml:Property tourml:name="height">200</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+  <tourml:Asset tourml:id="1">
+    <tourml:Source id="1" type="image" format="image/jpeg" uri="/support/icons/audioIcon700.jpg" lastModified="2011-09-29T12:01:32">
+      <tourml:PropertySet>
+        <tourml:Property tourml:name="width">700</tourml:Property>
+        <tourml:Property tourml:name="height">350</tourml:Property>
+      </tourml:PropertySet>
+    </tourml:Source>
+  </tourml:Asset>
+</tourml:Tour>

@@ -85,29 +85,49 @@
  		}
  				
  		public function Preview($type='') {
-
+                        $tour_id = $this->request->getParameter('id', pString);
+                        $this->Export($tour_id);
+                        $this->view->setVar('id', $tour_id);
 			$this->render('preview_html.php');			 				
  		}
  				
- 		public function Export($type='') {
+ 		private function Export($tour_id) {
  			//$opa_id=$this->request->getParameter('id', pInteger);
  			$opa_id=2;
  			$opa_locale="fr";
 
+                        $vt_stopContent = array();
+                        $asset_sources = array();
+                        
  			$xml = new tourml();
 
-                        $tour_id = $this->request->getParameter("id", pInteger);
-                        $this->view->setVar("id", $tour_id);
+                        /*$tour_id = $this->request->getParameter("id", pInteger);
+                        $this->view->setVar("id", $tour_id);*/
                         
                         $vt_tour = new ca_tours($tour_id);
                         
                         
  			$metadatas = array(
  				array("name"=>"Title","value"=>$vt_tour->getLabelForDisplay(),"attributes"=>array("xml:lang"=>"en")),
- 				array("name"=>"Description","value"=>$vt_tour->get("ca_tours.tour_description"),"attributes"=>array("xml:lang"=>"en")),
- 				array("name"=>"Author","value"=>"Indianapolis Museum of Art"),
+ 				array("name"=>"Description","value"=>  html_entity_decode($vt_tour->get("ca_tours.tour_description")),"attributes"=>array("xml:lang"=>"en")),
+ 				array("name"=>"Author","value"=>"Providence TourML"), 
+                                array("name"=> "AppResource", "attributes"=>array("tourml:id"=>"tour_image_header", "tourml:usage"=>"image")),
  				array("name"=>"RootStopRef","attributes"=>array("tourml:id"=>"stop-1"))
  			);
+                        
+                        $va_header_image = $vt_tour->get("ca_tours.tour_image_header", array("version"=>"page", "return"=>"url", "showMediaInfo"=>true));
+                        
+                        $asset_sources[] = array(
+                                    "id" => "tour_image_header",
+                                    "type" => "image",
+                                    "format"=>"image/jpeg",
+                                    "uri" => $va_header_image,
+                                    "lastModified"=>"2011-09-29T12:01:32",
+                                    "properties"=>array(
+                                        "width" => 320,
+                                        "height"=> 200
+                                    )
+                                );
                         
                         $va_stops = $vt_tour->get("ca_tour_stops.stop_id", array("returnAsArray"=>true));
                         
@@ -115,8 +135,8 @@
 
  			$xml->addMetadataProperty(array("google-analytics"=>"UA-123456"));
                         
-                        $asset_sources = array();
-                        $vt_stopContent = array();
+                       
+                        
                         foreach ($va_stops as $vn_stop_id){
                             $vt_stop = new ca_tour_stops($vn_stop_id);
                             $vt_stopContent[] = array(
@@ -127,7 +147,7 @@
                             
                             $vt_stopContent[] = array(
                                 "name" => "Description",
-                                "value" => $vt_stop->get("ca_tour_stops.tour_stop_description"),
+                                "value" => html_entity_decode($vt_stop->get("ca_tour_stops.tour_stop_description")),
                                 "attributes" => array("xml:lang" => "fr")
                             );
                             
@@ -152,9 +172,6 @@
                                 )
                             );
                             
-                            var_dump($va_header_image);
-                            die();
-                            
                             $vs_code = $vt_stop->get("ca_tour_stops.stop_numero");
                             
                             $va_assets = $vt_stop->get("ca_objects.object_id", array("returnAsArray"=>true));
@@ -171,10 +188,7 @@
                                 
                                 $asset_media_width = $vt_asset->getPrimaryRepresentation(array($asset_type))["info"][$asset_type]["WIDTH"];
                                 $asset_media_height = $vt_asset->getPrimaryRepresentation(array($asset_type))["info"][$asset_type]["HEIGHT"];
-                                
-                                //var_dump($asset_media_height);
-                                //die();
-                                
+                                                                
                                 $asset_sources[] = array(
                                     "id" => $vn_asset_id,
                                     "type" => "image",
@@ -191,14 +205,6 @@
                                     "id" => $vn_asset_id,
                                     "usage" => "image"
                                 );
-                                
-                                //var_dump($vt_asset->get("object_id"));
-                                //die();
-                                
-                                //$vs_id = $vt_asset->get("object_id");
-                                
-                                //$xml->addAsset($vs_id, $asset_content);
-                                
                             }
                             
                             if($vs_code != null){
@@ -212,49 +218,17 @@
                         
                         foreach ($asset_sources as $asset_source){
                             $xml->addAsset($asset_source["id"], array($asset_source));
+                        }		 				
+                        
+                        
+                        $path = __DIR__."/../lib/tap-webapp/tour_".$tour_id.".xml";
+                        if(!$monfichier = fopen($path, 'w+'))
+                        {
+                            echo 'Ouverture impossible!';
                         }
                         
- 			
-                        /*
- 			$stop1content = array(
- 				array("name"=>"Title","value"=>"Ankhaman's remains","attributes"=>array("xml:lang"=>"en")),
- 				array("name"=>"Title","value"=>"remainos Ankhaman's","attributes"=>array("xml:lang"=>"es"))
- 			);
- 			$xml->addStop("stop-1","StopGroup",$stop1content,null,array("code"=>"100"));
-
- 			$stop2content = array(
- 				array("name"=>"Title","value"=>"CT imagery of the mummy","attributes"=>array("xml:lang"=>"en"))
- 			);
- 			$stop2assetrefs = array(
- 				array("id"=>"img-1","usage"=>"primary")
- 			);
- 			$xml->addStop("stop-2","ImageStop",$stop2content,$stop2assetrefs,array("code"=>"200"));
- 			*/
- 			/*$asset1sources = array(
- 				array(
- 					"tourml:format"=>"video/quicktime",
- 					"tourml:lastModified"=>"2011-09-29T12:01:32",
- 					"xml:lang"=>"en",
- 					"tourml:uri"=>"file:///videos/ankh-ct.mov",
- 					"properties"=>array(
- 						"duration"=>"00:10:36",
- 						"width"=>"1920",
- 						"height">"1080"
- 					)
- 				)
- 			);
- 			$xml->addAsset("img-1",$asset1sources);
- 			
- 			$asset2content = array(
- 				array(
- 					 "tourml:format"=>"gml",
- 					 "tourml:lastModified"=>"2011-09-29T12:01:32",
- 					 "data"=>"<gml:Point srsName=\"EPSG:4326\"><gml:pos>21.052 -10.854</gml:pos></gml:Point>"
- 				)	
- 			);
- 			$xml->addAsset("geo-1",NULL,$asset2content);
- 			*/
- 			$this->view->setVar('xml', $xml->get());
-			$this->render('export_html.php');			 				
- 		}
+                        fwrite($monfichier, $xml->get());
+                        fclose($monfichier);
+                        //die();
+                }
  }
