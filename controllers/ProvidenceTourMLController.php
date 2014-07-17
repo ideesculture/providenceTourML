@@ -86,12 +86,18 @@
  				
  		public function Preview($type='') {
                         $tour_id = $this->request->getParameter('id', pString);
-                        $this->Export($tour_id);
+                        $this->xmlExport($tour_id,"file",__DIR__."/../lib/tap-webapp/tour_".$tour_id.".xml" );
                         $this->view->setVar('id', $tour_id);
 			$this->render('preview_html.php');			 				
  		}
- 				
- 		private function Export($tour_id) {
+
+        public function XmlOnScreen() {
+            $tour_id = $this->request->getParameter('id', pString);
+            $this->xmlExport($tour_id,"screen");
+            die();
+        }
+
+ 		private function xmlExport($tour_id,$target = "file", $filename="null") {
  			//$opa_id=$this->request->getParameter('id', pInteger);
  			$opa_id=2;
  			$opa_locale="fr";
@@ -228,14 +234,20 @@
                         }		 				
                         
                         
-                        $path = __DIR__."/../lib/tap-webapp/tour_".$tour_id.".xml";
-                        if(!$monfichier = fopen($path, 'w+'))
-                        {
-                            echo 'Ouverture impossible!';
+                        if ($target=="file") {
+                            if(!$filename) die("xmlExport : no filename received");
+
+                            if(!$monfichier = fopen($filename, 'w+'))
+                            {
+                                echo 'Ouverture impossible!';
+                            }
+
+                            fwrite($monfichier, $xml->get());
+                            fclose($monfichier);
+                        } elseif ($target == "screen") {
+                            print $xml->get();
+                            die();
                         }
-                        
-                        fwrite($monfichier, $xml->get());
-                        fclose($monfichier);
                         //die();
                 }
  }
