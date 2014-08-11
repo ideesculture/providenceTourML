@@ -25,7 +25,7 @@
             tourSettings: {
                 'default': {
                     'defaultNavigationController': 'StopListView',
-                    'enabledNavigationControllers': ['StopListView', 'MapView']
+                    'enabledNavigationControllers': ['StopListView', 'KeypadView', 'MapView']
                 }
             },
             navigationControllers: {},
