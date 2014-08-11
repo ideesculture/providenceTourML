@@ -63,27 +63,19 @@
 		public function hookRenderMenuBar($pa_menu_bar) {
 			if ($o_req = $this->getRequest()) {
 				//if (!$o_req->user->canDoAction('can_use_media_import_plugin')) { return true; }
-				
-				if (isset($pa_menu_bar['tourML_menu'])) {
-					$va_menu_items = $pa_menu_bar['tourML_menu']['navigation'];
-					if (!is_array($va_menu_items)) { $va_menu_items = array(); }
-				} else {
-					$va_menu_items = array();
-				}
-				
-				$va_menu_items[0] = array(
-						'displayName' => _t("index"),
+
+				if (isset($pa_menu_bar['Tours'])) {
+					$va_menu_item = array(
+						'displayName' => _t("tourML"),
 						"default" => array(
 							'module' => 'providenceTourML',
 							'controller' => 'providenceTourML',
 							'action' => 'Index'
 						)
 					);	
-                                
-				$pa_menu_bar['tourML_menu'] = array(
-					'displayName' => _t('tourML'),
-					'navigation' => $va_menu_items
-				);
+
+					$pa_menu_bar['Tours']['navigation']["tourml"] = $va_menu_item;
+				} 
 			} 
 			
 			return $pa_menu_bar;
