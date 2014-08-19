@@ -254,33 +254,43 @@ class ProvidenceTourMLController extends ActionController
             $vs_code = $vt_stop->get("ca_tour_stops.stop_numero");
 
             $va_assets = $vt_stop->get("ca_objects.object_id", array("returnAsArray" => true));
+            $va_extract_media_mapping = array(
+                "image_stop" => array(
+                    "versions" => array("page","thumbnail"),
+                    "format" => "image/jpeg"),
+                "audio_stop" => array(
+                    "versions" => array("original"),
+                    "format" => "audio/mp3"),
+                "video_stop" => array(
+                    "versions" => array("original"),
+                    "format" => "video/mp4")
+            );
             if(count($va_assets)>0) {
+                // Looping through all assets
                 foreach ($va_assets as $vn_asset_id) {
                     $vt_asset = new ca_objects($vn_asset_id);
+                    $vs_asset_type = reset(explode("_",$vs_stop_type));
                     $asset_sources[$vn_asset_id] = array(
-                        "type" => "image",
+                        "type" => $vs_asset_type
                     );
+                    // Fetch which media have to be extracted, depending of the type (page & thumbnail for image stops)
+                    $va_extract_media_types = $va_extract_media_mapping[$vs_stop_type]["versions"];
 
-                    $asset_types = array("page","thumbnail");
-                    foreach($asset_types as $asset_type) {
-                        $asset_media = reset($vt_asset->getPrimaryRepresentation(array($asset_type))["urls"]);
-                        $asset_media_width = $vt_asset->getPrimaryRepresentation(array($asset_type))["info"][$asset_type]["WIDTH"];
-                        $asset_media_height = $vt_asset->getPrimaryRepresentation(array($asset_type))["info"][$asset_type]["HEIGHT"];
-                        $asset_sources[$vn_asset_id][$asset_type] = array(
-                            "tourml:format" => "image/jpeg",
+                    // Looping to get the wanted media versions, two required for images
+                    foreach($va_extract_media_types as $va_extract_media_type) {
+                        $asset_media = reset($vt_asset->getPrimaryRepresentation(array($va_extract_media_type))["urls"]);
+                        $asset_media_width = $vt_asset->getPrimaryRepresentation(array($va_extract_media_type))["info"][$va_extract_media_type]["WIDTH"];
+                        $asset_media_height = $vt_asset->getPrimaryRepresentation(array($va_extract_media_type))["info"][$va_extract_media_type]["HEIGHT"];
+                        $asset_sources[$vn_asset_id][$va_extract_media_type] = array(
+                            "tourml:format" => $va_extract_media_mapping[$vs_stop_type]["format"],
                             "tourml:uri" => $asset_media,
                             "tourml:lastModified" => date(DATE_ATOM),
-                            "properties" => array(
-                                "width" => $asset_media_width,
-                                "height" => $asset_media_height
-                            ),
-                            "tourml:part" => ($asset_type=="thumbnail" ? "thumbnail" : "image")
+                            "tourml:part" => ($va_extract_media_type=="thumbnail" ? "thumbnail" : "image")
                         );
                     }
-                    $asset_refs[] = array(
-                        "id" => $vn_asset_id,
-                        "usage" => "image_asset"
-                    );
+
+                    // Creating the reference, note that for image we need to specifiy image_asset as type
+                    $asset_refs[] = array("id" => $vn_asset_id,"usage" => ($vs_asset_type=="image"?"image_asset":$vs_asset_type));
                 }
             }
 
@@ -303,6 +313,7 @@ class ProvidenceTourMLController extends ActionController
             // if target == bundle, copy the assets to the asset dir, inside the bundle and write relative paths
             if($target=="bundle") {
                 foreach($asset_source as $key=>$asset_source_version) {
+                    if($key == "type") continue;
                     $asset_filename = basename($asset_source_version["tourml:uri"]);    
                     copy($asset_source_version["tourml:uri"],$vs_assets_dir."/".$asset_filename);
                     $asset_source[$key]["tourml:uri"]="assets/".$asset_filename;
@@ -310,7 +321,7 @@ class ProvidenceTourMLController extends ActionController
             }
             $type=$asset_source["type"];
             unset($asset_source["type"]);
-            $xml->addAsset($asset_source_id,$asset_source["type"],$asset_source,NULL);
+            $xml->addAsset($asset_source_id,$type,$asset_source,NULL);
         }
 
         if($asset_contents) {
